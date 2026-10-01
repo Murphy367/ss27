@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build data.json for the parents' page from an SS27 board DB export.
 Usage: python3 scripts/build.py <db_dir> <meta_status.json> <out data.json>
-Only company / role / city / progress / dates, plus daily totals of board time and LinkedIn opens, are published. No resumes, contacts or notes."""
+Only company / role / city / progress / dates, the Chinese job summary and fun fact written for the parents, plus daily totals of board time and LinkedIn opens, are published. No resumes, contacts or notes."""
 import json, glob, os, re, sys, datetime
 
 db_dir, meta_path, out = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -29,7 +29,13 @@ applied = []
 for j in jobs:
     if j.get("status") != "applied":
         continue
+    zh = j.get("zh") if isinstance(j.get("zh"), dict) else {}
     applied.append({
+        "companyZh": clean(zh.get("company")),
+        "titleZh": clean(zh.get("title")),
+        "cityZh": clean(zh.get("city")),
+        "jd": clean(zh.get("jd")),
+        "fact": clean(zh.get("fact")),
         "company": clean(j.get("company")) or "（公司信息补全中）",
         "title": clean(j.get("title")) or "（岗位信息补全中）",
         "city": city(j.get("location")),
