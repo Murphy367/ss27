@@ -251,42 +251,42 @@ footer b{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;color:var
 </style>
 </head>
 <body>
-<header class="idx" id="idx"><nav aria-label="页面目录"><a class="brand" href="#top">SS27</a><a class="go" href="#effort">投入</a><a class="go" href="#progress">进度</a><a class="go" href="#game-s">游戏</a><a class="go" href="#apps">公司</a></nav></header>
+<header class="idx" id="idx"><nav aria-label="页面目录"><a class="brand" href="#top">SS27</a><a class="go" href="#effort">拼劲</a><a class="go" href="#progress">战况</a><a class="go" href="#game-s">游戏</a><a class="go" href="#apps">公司</a></nav></header>
 <div class="wrap" id="top">
   <section class="hero">
     <div class="who mono"><span>Murphy Tang</span><span>USC 硕士</span><span>2027 暑期实习</span></div>
-    <h1><span class="ss" aria-label="SS27"><span>S</span><span>S</span><span>2</span><span>7</span></span><span class="t"><b>女儿的实习申请季</b><small>Spring / Summer 2027</small></span></h1>
-    <p class="lede" id="lede">正在读取最新进度…</p>
+    <h1><span class="ss" aria-label="SS27"><span>S</span><span>S</span><span>2</span><span>7</span></span><span class="t"><b>女儿的打工人预备役进度条</b><small>Spring / Summer 2027 · 海投中，勿催</small></span></h1>
+    <p class="lede" id="lede">正在从洛杉矶搬运最新战况…</p>
     <div class="upd"><i aria-hidden="true"></i><span id="upd">正在加载</span></div>
   </section>
 
   <section class="sec reveal" id="effort" aria-labelledby="h-effort">
-    <div class="sh"><h2 id="h-effort">她最近的投入</h2><span class="mono">Effort</span></div>
+    <div class="sh"><h2 id="h-effort">她有多拼</h2><span class="mono">Effort</span></div>
     <div class="panel day" id="day"><div class="err">正在加载…</div></div>
   </section>
 
   <section class="sec reveal" id="progress" aria-labelledby="h-progress">
-    <div class="sh"><h2 id="h-progress">申请进度</h2><span class="mono">Applications</span></div>
+    <div class="sh"><h2 id="h-progress">战况汇报</h2><span class="mono">Applications</span></div>
     <div class="panel"><div class="stats" id="stats"></div><div class="pipe" id="pipe" aria-hidden="true"></div></div>
     <div class="panel notes" id="notes" hidden></div>
     <div class="panel season" id="season"></div>
   </section>
 
   <section class="sec reveal" id="game-s" aria-labelledby="h-game">
-    <div class="sh"><h2 id="h-game">每日小游戏</h2><span class="mono">Daily</span></div>
+    <div class="sh"><h2 id="h-game">今日份脑力活动</h2><span class="mono">Daily</span></div>
     <div class="game" id="game"></div>
   </section>
 
   <section class="sec" id="apps" aria-labelledby="h-apps">
-    <div class="sh"><h2 id="h-apps">投了哪些公司</h2><span class="mono">Companies</span></div>
-    <p class="fine">点开每家公司，可以看岗位做什么、有什么要求，还有一个关于这家公司的小知识。</p>
+    <div class="sh"><h2 id="h-apps">简历都飞去了哪</h2><span class="mono">Companies</span></div>
+    <p class="fine">点开每家公司，看看岗位干啥、要啥人，还附赠一个冷知识，饭桌上可以拿去考亲戚。</p>
     <div class="filter" id="filter" role="group" aria-label="按状态筛选"></div>
     <div class="list" id="lists"><div class="err">正在加载…</div></div>
   </section>
 
   <footer>
-    <div><b>状态说明</b>已投递 → 在线测评 → 面试中 → 拿到 Offer。大公司的暑期实习一般 9 月到次年 2 月陆续开放，投递后几周到一两个月才会有消息，没回音是常态。</div>
-    <div><b>数据从哪来</b>使用时长只统计 Murphy 在申请看板上的时间，打开领英的次数只统计从看板里点开的领英链接。每天中午和晚上（洛杉矶时间）各更新一次。</div>
+    <div><b>状态说明</b>已投递 → 在线测评 → 面试中 → 拿到 Offer。大公司的暑期实习一般 9 月到次年 2 月陆续开放。投完几周到一两个月才有消息很正常，美国 HR 回邮件的速度，大概和跨国海运差不多。</div>
+    <div><b>数据从哪来</b>时长只算她在申请看板上的时间，刷剧不算，刷小红书也不算。打开领英的次数只算从看板里点进去的。每天中午和晚上（洛杉矶时间）各更新一次。</div>
   </footer>
 </div>
 
@@ -316,7 +316,7 @@ if("IntersectionObserver" in window){const so=new IntersectionObserver(es=>es.fo
 /* ───── data ───── */
 let DATA=null;
 fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render(d)}).catch(()=>{
-  $("lists").innerHTML='<div class="err">数据暂时没加载出来，请稍后刷新一下。</div>';$("day").innerHTML='<div class="err">暂时没有数据。</div>';$("upd").textContent="暂时没连上";$("lede").textContent="数据暂时没加载出来，请稍后刷新一下。";season();
+  $("lists").innerHTML='<div class="err">数据迷路了，刷新一下试试。</div>';$("day").innerHTML='<div class="err">数据还在路上。</div>';$("upd").textContent="暂时没连上";$("lede").textContent="数据迷路了，比面试通知还难等。刷新一下试试。";season();
 });
 
 function render(d){
@@ -325,8 +325,8 @@ function render(d){
   const c=d.counts||{};const doing=(c["在线测评"]||0)+(c["面试中"]||0);const offer=c["拿到 Offer"]||0;
   const week=(d.applied||[]).filter(a=>a.appliedAt&&a.appliedAt>=shift(d.updated,-6)).length;
   let lede=`Murphy 已经投出 <em>${d.total||0}</em> 份实习申请`;
-  lede+=offer?`，拿到了 <em>${offer}</em> 个 Offer。`:doing?`，有 <em>${doing}</em> 个进入了测评或面试。`:"，目前都在等公司回音。";
-  if(week)lede+=`其中 ${week} 份是最近一周投的。`;
+  lede+=offer?`，拿到了 <em>${offer}</em> 个 Offer。可以开香槟了。`:doing?`，有 <em>${doing}</em> 个进入了测评或面试。请家长保持冷静，先别发朋友圈。`:"，目前全部处于「已读不回」状态。";
+  if(week)lede+=`其中 ${week} 份是这一周投的，手速堪比双十一抢购。`;
   $("lede").innerHTML=lede;
   renderDay(u);
   const stats=[["",d.total||0,"已投递"],["hi",doing,"测评 / 面试中"],["ok",offer,"拿到 Offer"],["",d.watching||0,"准备投递"]];
@@ -335,10 +335,10 @@ function render(d){
   const waiting=c["已投递"]||0,no=c["未通过"]||0;
   $("pipe").innerHTML=[["a",waiting],["b",doing],["c",offer],["d",no]].filter(x=>x[1]).map(([k,v])=>`<i class="${k}" style="flex-grow:0" data-g="${v}"></i>`).join("");
   const t=[];
-  if(week)t.push(`最近 7 天新投了 <b>${week}</b> 个岗位。`);
-  if(no)t.push(`有 <b>${no}</b> 个没通过。被拒是求职常态，热门公司的一个暑期岗位常常有很多人竞争。`);
-  if(d.watching)t.push(`还有 <b>${d.watching}</b> 个合适的岗位在准备投递。`);
-  if(d.upcoming&&d.upcoming.length)t.push(`这些公司的暑期实习还没开放，开放后会投：${d.upcoming.map(esc).join("、")}。`);
+  if(week)t.push(`最近 7 天新投了 <b>${week}</b> 个岗位，键盘已冒烟。`);
+  if(no)t.push(`有 <b>${no}</b> 个没通过。别担心，HR 又不认识她本人，这只能算简历被拒，不算她被拒。`);
+  if(d.watching)t.push(`还有 <b>${d.watching}</b> 个合适的岗位躺在购物车里，随时下单。`);
+  if(d.upcoming&&d.upcoming.length)t.push(`这些公司还没开门：${d.upcoming.map(esc).join("、")}。门一开就冲。`);
   if(t.length){$("notes").innerHTML=t.map(x=>`<p><span>${x}</span></p>`).join("");$("notes").hidden=false}
   season();
   renderLists();
@@ -347,15 +347,15 @@ function render(d){
 
 function renderDay(u){
   const el=$("day");
-  if(!u||!u.days||!u.days.some(x=>x.minutes||x.linkedin)){el.innerHTML='<div class="empty-day"><span class="g">—</span><b>从 10 月 1 日开始记录</b><span class="fine">之后这里会显示她每天在申请看板上花的时间，和从看板打开领英的次数。</span></div>';return}
+  if(!u||!u.days||!u.days.some(x=>x.minutes||x.linkedin)){el.innerHTML='<div class="empty-day"><span class="g">—</span><b>从 10 月 1 日开始记账</b><span class="fine">之后这里会显示她每天在申请看板上卷了多久，和从看板冲进领英几次。数据比面试通知来得快。</span></div>';return}
   const days=u.days,last=days[days.length-1];
   const max=Math.max(30,...days.map(x=>x.minutes));
   el.innerHTML=`<span class="mono" style="color:var(--muted);font-size:10.5px">${md(last.date)} · 最新一天</span><div class="big" style="margin-top:-8px">
-      <div><b class="num"><span data-to="${last.minutes}">0</span><small>分钟</small></b><span>在申请看板上</span></div>
-      <div class="li"><b class="num"><span data-to="${last.linkedin}">0</span><small>次</small></b><span>从看板打开领英</span></div>
+      <div><b class="num"><span data-to="${last.minutes}">0</span><small>分钟</small></b><span>在申请看板上卷</span></div>
+      <div class="li"><b class="num"><span data-to="${last.linkedin}">0</span><small>次</small></b><span>从看板冲进领英</span></div>
     </div>
     <div class="chart" role="img" aria-label="最近 7 天每天在看板上的分钟数：${days.map(x=>md(x.date)+" "+x.minutes+" 分钟").join("，")}">${days.map((x,i)=>`<div class="bar${i===days.length-1?" today":""}" style="--i:${i}"><span class="v num">${x.minutes||""}</span><span class="col" data-h="${Math.max(2,Math.round(x.minutes/max*100))}%"></span><span class="d">${i===days.length-1?md(x.date).replace("月","/").replace("日",""):wk(x.date)}</span><span class="li">${x.linkedin?"领英 "+x.linkedin:""}</span></div>`).join("")}</div>
-    <p class="fine">最近 7 天合计 <b class="num">${u.weekMinutes||0}</b> 分钟，从看板打开领英 <b class="num">${u.weekLinkedin||0}</b> 次。柱子是每天在看板上的分钟数，下面是当天打开领英的次数。</p>`;
+    <p class="fine">最近 7 天合计 <b class="num">${u.weekMinutes||0}</b> 分钟，从看板打开领英 <b class="num">${u.weekLinkedin||0}</b> 次。柱子越高越卷，下面的小字是当天冲进领英的次数。</p>`;
   el.querySelectorAll("[data-to]").forEach(countUp);
 }
 
@@ -367,16 +367,16 @@ function season(){
   const left=Math.max(0,Math.round((J-now)/864e5));
   const M=[["9月",8],["11月",10],["1月",12],["3月",14],["5月",16],["7月",18]];
   const ph=now<Date.UTC(2027,0,1)?0:now<J?1:2;
-  $("season").innerHTML=`<div class="count"><b class="num" data-to="${left}">0</b><span>天后，2027 年 6 月实习开始</span></div>
+  $("season").innerHTML=`<div class="count"><b class="num" data-to="${left}">0</b><span>天后正式上岗（2027 年 6 月，如果一切顺利）</span></div>
     <div class="rail" aria-hidden="true"><div class="line"></div><div class="done" data-w="${p(now)}%"></div><div class="band" style="left:${p(J)}%;width:${p(Date.UTC(2027,7,20))-p(J)}%"></div><div class="now" style="left:${p(now)}%"><span>今天</span></div>${M.map(([l,m])=>`<span class="m" style="left:${p(Date.UTC(2026,m,1))}%">${l}</span>`).join("")}</div>
-    <div class="phases">${[["投递期","9 月到 12 月，大公司陆续开放申请"],["面试期","11 月到次年 3 月，陆续通知面试"],["实习期","6 月到 8 月，图中斜线部分"]].map(([a,b],i)=>`<div class="${i===ph?"on":""}"><b>${a}${i===ph?" · 现在":""}</b><span>${b}</span></div>`).join("")}</div>`;
+    <div class="phases">${[["投递期","9 月到 12 月，海投、海投、还是海投"],["面试期","11 月到次年 3 月，西装熨好随时视频面试"],["实习期","6 月到 8 月，打工人正式上线（斜线部分）"]].map(([a,b],i)=>`<div class="${i===ph?"on":""}"><b>${a}${i===ph?" · 现在":""}</b><span>${b}</span></div>`).join("")}</div>`;
   $("season").querySelectorAll("[data-to]").forEach(countUp);
   if(document.querySelector("#progress.in"))grow($("season"));
 }
 
 /* ───── applications ───── */
 const CLS={"已投递":"applied","在线测评":"doing","面试中":"doing","拿到 Offer":"offer","未通过":"no"};
-const FILTERS=[["all","全部",()=>true],["active","进行中",a=>["在线测评","面试中","拿到 Offer"].includes(a.progress)],["wait","等待回复",a=>a.progress==="已投递"],["no","未通过",a=>a.progress==="未通过"]];
+const FILTERS=[["all","全部",()=>true],["active","有戏",a=>["在线测评","面试中","拿到 Offer"].includes(a.progress)],["wait","等回音",a=>a.progress==="已投递"],["no","有缘再见",a=>a.progress==="未通过"]];
 let filt="all",showAll=false;const opened=new Set();
 function jdHTML(s){
   const rows=String(s||"").split(/\n+/).map(l=>l.trim()).filter(Boolean).map(l=>{const m=l.match(/^([^：:]{2,6})[：:](.+)$/);return m?[m[1],m[2]]:["说明",l]});
@@ -396,14 +396,14 @@ function renderLists(){
         <span class="co">${esc(zh)}</span><span class="badge ${CLS[a.progress]||""}">${esc(a.progress)}</span>
         ${showEn?`<span class="en">${esc(a.company)}</span>`:""}
         <span class="role">${esc(a.titleZh||a.title)}</span>
-        <span class="meta"><span>${place?`<span class="nw">${esc(place)}</span> · `:""}<span class="nw">${md(a.appliedAt)}投递</span>${a.progressAt&&a.progressAt!==a.appliedAt?` · <span class="nw">${md(a.progressAt)}更新</span>`:""}</span>${has?`<span class="more"><span>${op?"收起":"岗位详情"}</span><i aria-hidden="true">+</i></span>`:""}</span>
+        <span class="meta"><span>${place?`<span class="nw">${esc(place)}</span> · `:""}<span class="nw">${md(a.appliedAt)}投递</span>${a.progressAt&&a.progressAt!==a.appliedAt?` · <span class="nw">${md(a.progressAt)}更新</span>`:""}</span>${has?`<span class="more"><span>${op?"收起":"展开看看"}</span><i aria-hidden="true">+</i></span>`:""}</span>
       </button>
       ${has?`<div class="body"><div><div class="in">
         ${a.titleZh?`<p class="orig">${esc(a.title)}</p>`:""}
         ${jdHTML(a.jd)}
-        ${a.fact?`<div class="fact"><span class="k">冷知识 · Fun fact</span><p>${esc(a.fact)}</p></div>`:""}
+        ${a.fact?`<div class="fact"><span class="k">冷知识 · 饭桌谈资</span><p>${esc(a.fact)}</p></div>`:""}
       </div></div></div>`:""}
-    </article>`}).join("")+(cut?`<button class="showall" data-all>再显示 ${rows.length-LIM} 家公司</button>`:""):'<div class="err">这一类暂时没有。</div>';
+    </article>`}).join("")+(cut?`<button class="showall" data-all>还有 ${rows.length-LIM} 家，继续翻</button>`:""):'<div class="err">这一栏暂时空空如也。</div>';
 }
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-f]");if(f){filt=f.dataset.f;showAll=false;renderLists();return}
@@ -411,7 +411,7 @@ document.addEventListener("click",e=>{
   const h=e.target.closest(".tag>button.hd");if(!h||h.disabled)return;
   const t=h.parentElement,k=t.dataset.key,op=!t.classList.contains("open");
   t.classList.toggle("open",op);h.setAttribute("aria-expanded",op);op?opened.add(k):opened.delete(k);
-  const m=h.querySelector(".more>span");if(m)m.textContent=op?"收起":"岗位详情";
+  const m=h.querySelector(".more>span");if(m)m.textContent=op?"收起":"展开看看";
 });
 
 /* ───── daily game ───── */
@@ -455,16 +455,16 @@ function markDone(result){
 function renderWeek(){const el=$("weekdots");if(!el)return;const pd=playedDays();el.innerHTML="最近 7 天 "+Array.from({length:7},(_,i)=>{const d=shift(GDAY,i-6);return `<i class="${pd.includes(d)?"on":""}" title="${md(d)}"></i>`}).join("")}
 function gameShell(title,sub,body){
   const s=streakInfo();const n=s.last===GDAY||s.last===shift(GDAY,-1)?s.n:0;
-  $("game").innerHTML=`<div class="ghead"><div><span class="k">${md(GDAY)} · 今日游戏</span><h3>${title}</h3><p>${sub}</p></div><div class="streak"><b class="num">${n}</b><span>连续天数</span></div></div><div class="weekdots" id="weekdots"></div>${body}`;
+  $("game").innerHTML=`<div class="ghead"><div><span class="k">${md(GDAY)} · 每天一换</span><h3>${title}</h3><p>${sub}</p></div><div class="streak"><b class="num">${n}</b><span>连续打卡</span></div></div><div class="weekdots" id="weekdots"></div>${body}`;
   renderWeek();
 }
-function winBox(msg,sub){return `<div class="win"><b>${msg}</b><span>${sub}</span></div><div class="gfoot"><span>明天会换一个新游戏。</span><button class="btn" id="g-again">再玩一次</button></div>`}
+function winBox(msg,sub){return `<div class="win"><b>${msg}</b><span>${sub}</span></div><div class="gfoot"><span>明天换新游戏，记得来打卡。</span><button class="btn" id="g-again">再玩一次</button></div>`}
 function startGame(){const r=rng("ss27-"+GDAY);if(KIND==="match")matchGame(r);else if(KIND==="quiz")quizGame(r);else memoryGame(r)}
 document.addEventListener("click",e=>{if(e.target.id==="g-again")startGame()});
 function matchGame(r){
   const pick=shuffle(WORDS,r).slice(0,5);const L=shuffle(pick,r),R=shuffle(pick,r);
   let sel=null,left=5,miss=0;
-  gameShell("中英配对","Murphy 求职时每天都会遇到这些英文词。先点左边的英文，再点右边对应的中文。",
+  gameShell("中英配对","女儿每天和这些英文词打交道，您也来认识一下。先点左边英文，再点右边中文。",
     `<div class="pairs"><div class="colm">${L.map(p=>`<button class="tile en" data-k="${esc(p[0])}" data-s="L">${esc(p[0])}</button>`).join("")}</div><div class="colm">${R.map(p=>`<button class="tile" data-k="${esc(p[0])}" data-s="R">${esc(p[1])}</button>`).join("")}</div></div><div class="gfoot" id="g-st"><span>还剩 5 对</span></div>`);
   $("game").onclick=e=>{
     const t=e.target.closest(".tile");if(!t||t.classList.contains("ok"))return;
@@ -473,21 +473,21 @@ function matchGame(r){
     else{miss++;[sel,t].forEach(x=>{x.classList.remove("sel","bad");void x.offsetWidth;x.classList.add("bad")})}
     sel=null;
     if(left){$("g-st").innerHTML=`<span>还剩 ${left} 对${miss?" · 配错 "+miss+" 次":""}</span>`}
-    else{markDone({kind:"match",miss});$("g-st").outerHTML=winBox(miss?`全部配对完成，配错 ${miss} 次`:"一次都没配错！",pick.map(p=>p[0]+" = "+p[1]).join("，")+"。");confetti()}
+    else{markDone({kind:"match",miss});$("g-st").outerHTML=winBox(miss?`配完了，中途手滑 ${miss} 次`:"一次都没配错，建议直接去当 HR！",pick.map(p=>p[0]+" = "+p[1]).join("，")+"。");confetti()}
   };
 }
 function quizGame(r){
   const qs=shuffle(QUIZ,r).slice(0,3).map(q=>{const idx=shuffle([0,1,2,3],r);return {t:q[0],o:idx.map(i=>q[1][i]),a:idx.indexOf(q[2]),x:q[3]}});
   let i=0,score=0;
   const show=()=>{const q=qs[i];
-    gameShell("时尚小问答","三道题，都和 Murphy 申请的公司、学校和行业有关。",
+    gameShell("时尚小问答","三道题，都和女儿申请的公司、学校和行业有关。答对了，下次视频可以考考她。",
       `<div class="q"><div class="qn" aria-label="第 ${i+1} 题，共 3 题">${[0,1,2].map(k=>`<i class="${k<=i?"on":""}"></i>`).join("")}</div><div class="qt">${i+1}. ${esc(q.t)}</div>${q.o.map((o,k)=>`<button class="opt" data-k="${k}"><i>${"ABCD"[k]}</i>${esc(o)}</button>`).join("")}<div id="g-x"></div></div>`);
     $("game").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;
       const k=+b.dataset.k;const os=document.querySelectorAll(".opt");os.forEach(x=>x.disabled=true);
       os[q.a].classList.add("right");if(k!==q.a)b.classList.add("wrong");else score++;
       const last=i===2;
       $("g-x").innerHTML=`<p class="explain">${k===q.a?"答对了。":"正确答案是 "+"ABCD"[q.a]+"。"}${esc(q.x)}</p><div class="gfoot" style="margin-top:10px"><span>已答对 ${score} 题</span><button class="btn go" id="g-next">${last?"看结果":"下一题"}</button></div>`;
-      $("g-next").onclick=()=>{if(!last){i++;show()}else{markDone({kind:"quiz",score});gameShell("时尚小问答","今天的三道题答完了。",winBox(`答对 ${score} / 3 题`,score===3?"全对，真厉害！":"明天再来挑战新的题目。"));if(score===3)confetti()}};
+      $("g-next").onclick=()=>{if(!last){i++;show()}else{markDone({kind:"quiz",score});gameShell("时尚小问答","今天的三道题答完了。",winBox(`答对 ${score} / 3 题`,score===3?"全对！时尚圈欠您一个工位。":score===0?"零分也没关系，HR 也经常看不懂简历。明天再来。":"明天还有新题，回去偷偷补课。"));if(score===3)confetti()}};
     };
   };
   show();
@@ -495,7 +495,7 @@ function quizGame(r){
 function memoryGame(r){
   const words=shuffle(MEM,r).slice(0,6);const deck=shuffle(words.concat(words),r);
   let open=[],found=0,steps=0,lock=false;
-  gameShell("翻牌记忆","每次翻开两张牌，一样的就配成一对。找出全部 6 对。",
+  gameShell("翻牌记忆","每次翻两张，一样的就配成一对，找齐 6 对。测测记性，顺便防老年痴呆（开玩笑的）。",
     `<div class="cards">${deck.map((w,i)=>`<button class="card" data-i="${i}" aria-label="第 ${i+1} 张牌"><span class="in"><span class="f">SS</span><span class="b">${esc(w)}</span></span></button>`).join("")}</div><div class="gfoot" id="g-st"><span>已翻 0 次</span></div>`);
   $("game").onclick=e=>{
     const c=e.target.closest(".card");if(!c||lock||c.classList.contains("up")||c.classList.contains("done"))return;
@@ -505,7 +505,7 @@ function memoryGame(r){
     if(deck[a.dataset.i]===deck[b.dataset.i]){setTimeout(()=>{a.classList.add("done");b.classList.add("done")},300);found++}
     else{lock=true;setTimeout(()=>{a.classList.remove("up");b.classList.remove("up");lock=false},850)}
     if(found<6){$("g-st").innerHTML=`<span>已翻 ${steps} 次 · 找到 ${found} 对</span>`}
-    else{markDone({kind:"memory",steps});setTimeout(()=>{$("g-st").outerHTML=winBox(`用 ${steps} 次全部找到！`,steps<=9?"记性真好。":"最少只需要 6 次，明天再试试。");confetti()},500)}
+    else{markDone({kind:"memory",steps});setTimeout(()=>{$("g-st").outerHTML=winBox(`用 ${steps} 次全部找到！`,steps<=9?"记性比 HR 记简历还好。":"最少 6 次就能翻完，明天再战。");confetti()},500)}
   };
 }
 function confetti(){
@@ -520,7 +520,7 @@ function confetti(){
 (function(){
   const done=store.get("ss27-game-"+GDAY);
   if(done){const res=done.kind==="quiz"?`答对 ${done.score} / 3 题`:done.kind==="memory"?`用 ${done.steps} 次找到全部`:`配错 ${done.miss||0} 次`;
-    gameShell(NAMES[done.kind]||"今日游戏","今天的游戏已经完成。",winBox("今天已经玩过了："+res,"可以再玩一次，连续天数不会重复计算。"))}
+    gameShell(NAMES[done.kind]||"今日游戏","今天的已经完成了，干得漂亮。",winBox("今日已打卡："+res,"可以再玩一次过过瘾，但打卡天数不会重复算哦。"))}
   else startGame();
 })();
 </script>
