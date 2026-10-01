@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Murphy 的实习申请进度</title>
+<style>
+:root{--bg:#f7f4ef;--card:#fff;--ink:#22201c;--muted:#7a746b;--line:#e8e2d8;--accent:#b4532a;--accent-soft:#f8e9e1;
+--blue:#2f5fa8;--blue-soft:#e6eef9;--green:#2e7d4f;--green-soft:#e3f2e8;--gray-soft:#efece7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:17px;line-height:1.6;
+padding:calc(env(safe-area-inset-top,0px) + 20px) 16px calc(env(safe-area-inset-bottom,0px) + 40px)}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1{font-size:26px;margin:0;line-height:1.3}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 10px;text-align:center}
+.stat b{display:block;font-size:32px;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:14px;color:var(--muted)}
+.stat.hi b{color:var(--accent)}
+.note{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:15px}
+.note b{color:var(--accent)}
+h2{font-size:19px;margin:8px 0 0}
+.list{display:flex;flex-direction:column;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.co{font-weight:600;font-size:18px;line-height:1.35;overflow-wrap:anywhere}
+.badge{flex:none;font-size:13px;padding:3px 10px;border-radius:999px;white-space:nowrap;background:var(--gray-soft);color:var(--muted)}
+.b-已投递{background:var(--blue-soft);color:var(--blue)}
+.b-在线测评,.b-面试中{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.b-拿到Offer{background:var(--green-soft);color:var(--green);font-weight:600}
+.role{font-size:14.5px;color:var(--ink);opacity:.85;overflow-wrap:anywhere}
+.meta{font-size:13.5px;color:var(--muted)}
+.item.dim{opacity:.6}
+.empty,.err{color:var(--muted);text-align:center;padding:30px 10px}
+footer{font-size:13px;color:var(--muted);text-align:center;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Murphy 的暑期实习申请</h1>
+    <div class="sub" id="sub">正在加载…</div>
+  </header>
+  <section class="stats" id="stats"></section>
+  <section class="note" id="note" hidden></section>
+  <section id="lists"><div class="empty">正在加载…</div></section>
+  <footer>这是 2027 年暑期实习的申请进度，每天自动更新一次。<br>状态说明：已投递 → 在线测评 → 面试中 → 拿到 Offer</footer>
+</div>
+<script>
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const md=d=>{if(!d)return"";const m=d.match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?`${+m[2]}月${+m[3]}日`:d};
+fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById("sub").textContent=`最近更新：${md(d.updated)}`;
+  const c=d.counts||{};
+  const doing=(c["在线测评"]||0)+(c["面试中"]||0);
+  document.getElementById("stats").innerHTML=
+    `<div class="stat"><b>${d.total}</b><span>已投递</span></div>`+
+    `<div class="stat hi"><b>${doing}</b><span>测评/面试中</span></div>`+
+    `<div class="stat hi"><b>${c["拿到 Offer"]||0}</b><span>拿到 Offer</span></div>`;
+  const note=document.getElementById("note");
+  let t=[];
+  if(d.watching)t.push(`还有 <b>${d.watching}</b> 个合适的岗位在准备投递。`);
+  if(d.upcoming&&d.upcoming.length)t.push(`这些公司的暑期实习还没开放，开放后会投：${d.upcoming.map(esc).join("、")}。`);
+  t.push("大公司的暑期实习一般 9 月到次年 2 月陆续开放，面试通常在投递后几周到一两个月才有消息。");
+  note.innerHTML=t.join("<br>");note.hidden=false;
+  const groups=[["进行中",a=>["在线测评","面试中","拿到 Offer"].includes(a.progress)],["已投递，等待回复",a=>a.progress==="已投递"],["未通过",a=>a.progress==="未通过"]];
+  let h="";
+  for(const [name,fn] of groups){
+    const rows=d.applied.filter(fn); if(!rows.length)continue;
+    h+=`<h2>${name}（${rows.length}）</h2><div class="list">`+rows.map(a=>`<div class="item${a.progress==="未通过"?" dim":""}">
+      <div class="top"><div class="co">${esc(a.company)}</div><span class="badge b-${esc(a.progress.replace(/\s/g,""))}">${esc(a.progress)}</span></div>
+      <div class="role">${esc(a.title)}</div>
+      <div class="meta">${a.city?esc(a.city)+" · ":""}${md(a.appliedAt)}投递${a.progressAt&&a.progressAt!==a.appliedAt?" · "+md(a.progressAt)+"更新":""}</div>
+    </div>`).join("")+`</div>`;
+  }
+  document.getElementById("lists").innerHTML=h||`<div class="empty">还没有投递记录。</div>`;
+}).catch(()=>{document.getElementById("lists").innerHTML=`<div class="err">数据暂时没加载出来，请稍后刷新一下。</div>`;document.getElementById("sub").textContent=""});
+</script>
+</body>
+</html>

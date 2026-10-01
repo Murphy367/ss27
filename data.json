@@ -1,0 +1,135 @@
+{
+ "updated": "2026-09-30",
+ "generatedAt": "2026-10-01T04:05:37Z",
+ "total": 14,
+ "counts": {
+  "拿到 Offer": 0,
+  "面试中": 0,
+  "在线测评": 0,
+  "已投递": 12,
+  "未通过": 2
+ },
+ "watching": 5,
+ "upcoming": [
+  "Hugo Boss",
+  "Nordstrom",
+  "Ralph Lauren",
+  "Sephora",
+  "Skechers",
+  "Tapestry"
+ ],
+ "applied": [
+  {
+   "company": "Williams-Sonoma, Inc. (West Elm)",
+   "title": "2027 Merchandising Internship - Brooklyn",
+   "city": "Brooklyn",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Nike",
+   "title": "Marketing Vanguard Program (MVP) Graduate Internship",
+   "city": "Beaverton, OR",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Victoria's Secret & Co.",
+   "title": "Summer 2027 Marketing Internship",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Fossil Group",
+   "title": "Planning & Merchandising Intern（Summer 2027 · Time to Shine）",
+   "city": "Richardson, TX",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Victoria's Secret & Co.",
+   "title": "Summer 2027 Merchandise Planning Internship",
+   "city": "Reynoldsburg, OH",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Under Armour",
+   "title": "2027 Summer Internship, Supply Chain, Planning and Allocation（Rookie Program）",
+   "city": "Baltimore, MD",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Springswindowfashions",
+   "title": "（岗位信息补全中）",
+   "city": "",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Henkel（DevaCurl）",
+   "title": "Brand Marketing Intern - DevaCurl - Spring/Summer 2027",
+   "city": "Culver City",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Free People（URBN）",
+   "title": "Planning and Allocation Intern（Summer 2027）",
+   "city": "Philadelphia, PA",
+   "progress": "已投递",
+   "appliedAt": "2026-09-29",
+   "progressAt": "2026-09-29"
+  },
+  {
+   "company": "Harbor Freight Tools",
+   "title": "Intern - Merchandising Leadership Development Program",
+   "city": "Calabasas",
+   "progress": "已投递",
+   "appliedAt": "2026-09-23",
+   "progressAt": "2026-09-23"
+  },
+  {
+   "company": "Western Digital",
+   "title": "Summer 2027 Intern - Sales & Marketing",
+   "city": "Irvine",
+   "progress": "已投递",
+   "appliedAt": "2026-09-23",
+   "progressAt": "2026-09-23"
+  },
+  {
+   "company": "The deFIANT",
+   "title": "Showroom/VIP/Influencer Intern",
+   "city": "West Hollywood",
+   "progress": "已投递",
+   "appliedAt": "2026-09-23",
+   "progressAt": "2026-09-23"
+  },
+  {
+   "company": "TikTok（TikTok Shop）",
+   "title": "Integrated Marketing & Promotion Manager Intern (TikTok Shop - Operations) - 2027 Summer (MBA)",
+   "city": "Los Angeles",
+   "progress": "未通过",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "company": "Robinhood",
+   "title": "Growth Marketing Intern (Summer 2027)",
+   "city": "Menlo Park",
+   "progress": "未通过",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  }
+ ]
+}
