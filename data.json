@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-30",
- "generatedAt": "2026-10-01T04:05:37Z",
+ "generatedAt": "2026-10-01T07:55:05Z",
  "total": 14,
  "counts": {
   "拿到 Offer": 0,
@@ -68,9 +68,9 @@
    "progressAt": "2026-09-30"
   },
   {
-   "company": "Springswindowfashions",
-   "title": "（岗位信息补全中）",
-   "city": "",
+   "company": "Springs Window Fashions",
+   "title": "Sustainability Data and Marketing Specialist Internship - Summer 2027",
+   "city": "Long Island City",
    "progress": "已投递",
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
@@ -131,5 +131,47 @@
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
   }
- ]
+ ],
+ "usage": {
+  "asOf": "2026-10-01 00:55",
+  "days": [
+   {
+    "date": "2026-09-25",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-09-26",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-09-27",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-09-28",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-09-29",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-09-30",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-01",
+    "minutes": 0,
+    "linkedin": 0
+   }
+  ],
+  "weekMinutes": 0,
+  "weekLinkedin": 0
+ }
 }

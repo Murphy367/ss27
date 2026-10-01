@@ -4,79 +4,392 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="light only">
 <title>Murphy 的实习申请进度</title>
 <style>
-:root{--bg:#f7f4ef;--card:#fff;--ink:#22201c;--muted:#7a746b;--line:#e8e2d8;--accent:#b4532a;--accent-soft:#f8e9e1;
---blue:#2f5fa8;--blue-soft:#e6eef9;--green:#2e7d4f;--green-soft:#e3f2e8;--gray-soft:#efece7}
+/* Layout: the parents' copy of the SS27 call sheet — one phone-width column: her day, the numbers, the season, a daily game, then every application as a hang tag. */
+:root{
+  --ground:#eff0eb; --sheet:#ffffff; --sheet-2:#f7f7f3;
+  --ink:#141518; --ink-2:#3d3f46; --muted:#6c6e76; --rule:#d8d9d2; --rule-2:#e7e8e2;
+  --chalk:#2633d1; --chalk-wash:#e8eafc;
+  --good:#17784a; --good-wash:#e0f1e8; --warn:#9a5800; --warn-wash:#f8ecd8; --bad:#b3261e; --bad-wash:#f8e3e0;
+  --shadow:0 1px 0 rgba(20,21,24,.04),0 10px 26px -14px rgba(20,21,24,.22);
+  --f-display:"Didot","Bodoni 72","Bodoni MT","Noto Serif SC","Songti SC","STSong",Georgia,serif;
+  --f-cjk:"Songti SC","Noto Serif SC","STSong","SimSun",serif;
+  --f-body:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --f-mono:"SF Mono",Menlo,Consolas,"Roboto Mono",monospace;
+  --ease:cubic-bezier(.2,.7,.1,1);
+  color-scheme:light;
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:17px;line-height:1.6;
-padding:calc(env(safe-area-inset-top,0px) + 20px) 16px calc(env(safe-area-inset-bottom,0px) + 40px)}
-.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
-h1{font-size:26px;margin:0;line-height:1.3}
-.sub{color:var(--muted);font-size:14px;margin-top:4px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 10px;text-align:center}
-.stat b{display:block;font-size:32px;line-height:1.1;font-variant-numeric:tabular-nums}
-.stat span{font-size:14px;color:var(--muted)}
-.stat.hi b{color:var(--accent)}
-.note{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:15px}
-.note b{color:var(--accent)}
-h2{font-size:19px;margin:8px 0 0}
-.list{display:flex;flex-direction:column;gap:10px}
-.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
-.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
-.co{font-weight:600;font-size:18px;line-height:1.35;overflow-wrap:anywhere}
-.badge{flex:none;font-size:13px;padding:3px 10px;border-radius:999px;white-space:nowrap;background:var(--gray-soft);color:var(--muted)}
-.b-已投递{background:var(--blue-soft);color:var(--blue)}
-.b-在线测评,.b-面试中{background:var(--accent-soft);color:var(--accent);font-weight:600}
-.b-拿到Offer{background:var(--green-soft);color:var(--green);font-weight:600}
-.role{font-size:14.5px;color:var(--ink);opacity:.85;overflow-wrap:anywhere}
-.meta{font-size:13.5px;color:var(--muted)}
-.item.dim{opacity:.6}
-.empty,.err{color:var(--muted);text-align:center;padding:30px 10px}
-footer{font-size:13px;color:var(--muted);text-align:center;margin-top:8px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;
+  padding:calc(env(safe-area-inset-top,0px) + 24px) 16px calc(env(safe-area-inset-bottom,0px) + 56px);
+  background-image:radial-gradient(rgba(20,21,24,.08) .8px,transparent 1px);background-size:22px 22px}
+button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--chalk);outline-offset:2px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:30px}
+.mono{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* Masthead */
+.mast{padding-bottom:16px;border-bottom:1.5px solid var(--ink);display:flex;flex-direction:column;gap:6px}
+.mast .mono{color:var(--muted)}
+.mast h1{margin:0;display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;line-height:.85}
+.mast h1 .ss{font-family:var(--f-display);font-weight:400;font-size:clamp(84px,24vw,128px);letter-spacing:-.04em}
+.mast h1 .t{font-family:var(--f-cjk);font-weight:600;font-size:clamp(22px,6vw,28px);line-height:1.25;padding-bottom:10px}
+.mast h1 .t small{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--chalk);font-weight:400}
+.mast .upd{font-size:14px;color:var(--muted)}
+
+h2{margin:0;font-family:var(--f-cjk);font-weight:600;font-size:22px;line-height:1.3;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+h2 .mono{color:var(--chalk);font-size:10.5px;font-family:var(--f-mono);font-weight:400}
+.sec{display:flex;flex-direction:column;gap:14px}
+.lede{margin:0;color:var(--muted);font-size:14.5px}
+
+/* Her day */
+.day{background:var(--sheet);border:1px solid var(--rule);padding:20px 18px 16px;display:flex;flex-direction:column;gap:16px}
+.day .big{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.day .big>div{display:flex;flex-direction:column;gap:2px;padding-right:12px}
+.day .big>div+div{border-left:1px solid var(--rule-2);padding-left:16px}
+.day .big b{font-family:var(--f-display);font-weight:400;font-size:56px;line-height:1;letter-spacing:-.03em}
+.day .big b small{font-family:var(--f-body);font-size:15px;letter-spacing:0;margin-left:4px;color:var(--ink-2)}
+.day .big span{font-size:14px;color:var(--muted)}
+.day .big .li b{color:var(--chalk)}
+.chart{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;align-items:end;height:132px;padding-top:18px;border-top:1px solid var(--rule-2)}
+.bar{display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end;min-width:0}
+.bar .v{font-family:var(--f-mono);font-size:11px;color:var(--ink-2)}
+.bar .col{width:100%;max-width:34px;background:var(--rule);min-height:2px;transition:height .9s var(--ease)}
+.bar.today .col{background:var(--chalk)}
+.bar .d{font-size:12px;color:var(--muted);white-space:nowrap}
+.bar.today .d{color:var(--chalk);font-weight:600}
+.bar .li{font-family:var(--f-mono);font-size:10px;color:var(--chalk);min-height:14px}
+.day .fine{font-size:12.5px;color:var(--muted);margin:0;padding-top:10px;border-top:1px dashed var(--rule)}
+
+/* Numbers */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--sheet);border:1px solid var(--rule)}
+.stat{padding:14px 10px 12px 14px;display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--rule);min-width:0}
+.stat:first-child{border-left:0}
+.stat b{font-family:var(--f-display);font-weight:400;font-size:44px;line-height:1;letter-spacing:-.03em}
+.stat span{font-size:13.5px;color:var(--muted);line-height:1.3}
+.stat.hi b{color:var(--chalk)}
+.stat.ok b{color:var(--good)}
+
+/* Season */
+.season{background:var(--sheet);border:1px solid var(--rule);padding:18px 18px 16px;display:flex;flex-direction:column;gap:14px}
+.season .count{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.season .count b{font-family:var(--f-display);font-size:52px;font-weight:400;line-height:1;letter-spacing:-.03em}
+.season .count span{color:var(--ink-2);font-size:15px}
+.rail{position:relative;height:58px}
+.rail .line{position:absolute;left:0;right:0;top:20px;height:1px;background:var(--ink)}
+.rail .done{position:absolute;left:0;top:19px;height:3px;background:var(--ink);transition:width 1.2s var(--ease)}
+.rail .band{position:absolute;top:8px;height:12px;background:repeating-linear-gradient(-45deg,var(--chalk-wash) 0 4px,transparent 4px 8px);border-left:1px solid var(--chalk)}
+.rail .now{position:absolute;top:2px;height:28px;border-left:1.5px dashed var(--chalk)}
+.rail .now span{position:absolute;top:-4px;left:5px;font-family:var(--f-mono);font-size:10.5px;color:var(--chalk);white-space:nowrap;background:var(--sheet);padding-right:3px}
+.rail .m{position:absolute;top:28px;font-family:var(--f-mono);font-size:10px;color:var(--muted);letter-spacing:.04em;transform:translateX(-1px)}
+.rail .m::before{content:"";position:absolute;left:0;top:-10px;width:1px;height:6px;background:var(--ink)}
+.season .fine{font-size:14px;color:var(--ink-2);margin:0}
+
+/* Game */
+.game{background:var(--sheet);border:1px solid var(--chalk);box-shadow:inset 0 3px 0 var(--chalk);padding:20px 18px 18px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+.game .head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.game .head h3{margin:0;font-family:var(--f-cjk);font-size:21px;font-weight:600;line-height:1.3}
+.game .head p{margin:2px 0 0;font-size:14px;color:var(--muted)}
+.streak{flex:none;text-align:center;border:1px solid var(--rule);padding:6px 10px 4px;min-width:66px}
+.streak b{display:block;font-family:var(--f-display);font-size:28px;line-height:1;font-weight:400}
+.streak span{font-size:11px;color:var(--muted);white-space:nowrap}
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pairs .colm{display:flex;flex-direction:column;gap:10px}
+.tile{border:1px solid var(--rule);background:var(--sheet-2);padding:12px 10px;min-height:52px;cursor:pointer;font-size:16px;line-height:1.3;text-align:center;transition:background .2s,border-color .2s,color .2s,transform .15s,opacity .4s;border-radius:2px}
+.tile.en{font-family:var(--f-display);font-size:18px;font-style:italic}
+.tile:active{transform:scale(.98)}
+.tile.sel{border-color:var(--chalk);background:var(--chalk-wash);color:var(--chalk)}
+.tile.ok{border-color:var(--good);background:var(--good-wash);color:var(--good);cursor:default}
+.tile.bad{animation:shake .4s}
+@keyframes shake{20%,60%{transform:translateX(-5px)}40%,80%{transform:translateX(5px)}}
+.q{display:flex;flex-direction:column;gap:10px}
+.q .qt{font-size:18px;font-weight:600;line-height:1.45}
+.q .qn{font-family:var(--f-mono);font-size:11px;color:var(--chalk);letter-spacing:.12em}
+.opt{display:flex;align-items:center;gap:10px;border:1px solid var(--rule);background:var(--sheet-2);padding:12px 14px;cursor:pointer;text-align:left;font-size:16px;transition:all .2s;border-radius:2px}
+.opt i{font-style:normal;font-family:var(--f-mono);font-size:12px;width:22px;height:22px;border:1px solid var(--rule);display:grid;place-items:center;flex:none;background:var(--sheet)}
+.opt.right{border-color:var(--good);background:var(--good-wash);color:var(--good)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-wash);color:var(--bad)}
+.opt[disabled]{cursor:default}
+.explain{font-size:14.5px;color:var(--ink-2);background:var(--sheet-2);border-left:2px solid var(--chalk);padding:10px 12px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;perspective:800px}
+.card{position:relative;aspect-ratio:3/4;max-width:100%;border:0;padding:0;background:none;cursor:pointer}
+.card .in{position:absolute;inset:0;transition:transform .45s var(--ease);transform-style:preserve-3d}
+.card.up .in,.card.done .in{transform:rotateY(180deg)}
+.card .f,.card .b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:grid;place-items:center;border:1px solid var(--rule);border-radius:2px;padding:4px;text-align:center}
+.card .f{background:var(--chalk-wash);color:var(--chalk);border-color:var(--chalk);font-family:var(--f-display);font-size:22px;letter-spacing:-.02em}
+.card .f::after{content:"";position:absolute;top:8px;left:50%;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:var(--sheet);box-shadow:inset 0 0 0 1.5px var(--chalk)}
+.card .b{background:var(--sheet);transform:rotateY(180deg);font-size:15px;line-height:1.25;font-weight:600}
+.card.done .b{background:var(--good-wash);color:var(--good);border-color:var(--good)}
+.gfoot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.btn{border:1px solid var(--ink);background:var(--sheet);padding:9px 16px;cursor:pointer;font-size:15px;border-radius:2px}
+.btn.go{background:var(--chalk);border-color:var(--chalk);color:#fff}
+.win{border:1px solid var(--good);background:var(--good-wash);color:var(--good);padding:14px 16px;font-size:16px;display:flex;flex-direction:column;gap:4px}
+.win b{font-family:var(--f-cjk);font-size:19px}
+.confetti{position:absolute;inset:0;pointer-events:none}
+
+/* Applications */
+.group{display:flex;flex-direction:column;gap:10px}
+.group h3{margin:6px 0 0;font-size:15px;color:var(--ink-2);font-weight:600;display:flex;gap:8px;align-items:baseline}
+.group h3 .mono{color:var(--muted);font-size:11px;font-weight:400}
+.tag{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;background:var(--sheet);border:1px solid var(--rule);padding:14px 16px 14px 34px;position:relative}
+.tag::before{content:"";position:absolute;left:14px;top:20px;width:8px;height:8px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--muted);background:var(--ground)}
+.tag .co{font-family:var(--f-display);font-style:italic;font-size:19px;line-height:1.25;overflow-wrap:anywhere}
+.tag .role{grid-column:1/-1;font-size:14.5px;color:var(--ink-2);line-height:1.45;overflow-wrap:anywhere}
+.tag .meta{grid-column:1/-1;font-size:13px;color:var(--muted)}
+.badge{align-self:start;font-size:12.5px;padding:3px 10px;border-radius:999px;white-space:nowrap;border:1px solid var(--rule);color:var(--ink-2)}
+.badge.applied{border-color:var(--chalk);color:var(--chalk)}
+.badge.doing{background:var(--warn-wash);border-color:var(--warn-wash);color:var(--warn);font-weight:600}
+.badge.offer{background:var(--good-wash);border-color:var(--good-wash);color:var(--good);font-weight:600}
+.badge.no{background:var(--sheet-2);color:var(--muted)}
+.tag.dim{opacity:.62}
+.more{border:1px dashed var(--rule);background:none;padding:10px;cursor:pointer;color:var(--chalk);font-size:15px}
+.note{background:var(--sheet);border:1px solid var(--rule);padding:14px 16px;font-size:15px;color:var(--ink-2);display:flex;flex-direction:column;gap:6px}
+.note b{color:var(--chalk);font-weight:600}
+.err{color:var(--muted);text-align:center;padding:30px 10px}
+footer{font-size:13px;color:var(--muted);border-top:1.5px solid var(--ink);padding-top:14px;display:flex;flex-direction:column;gap:6px}
+
+@media (prefers-reduced-motion:no-preference){
+  .rise{animation:rise .7s var(--ease) both;animation-delay:calc(var(--i,0) * .07s)}
+}
+@keyframes rise{from{transform:translateY(14px);opacity:.001}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+@media (max-width:420px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(3){border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--rule)}
+  .day .big b{font-size:46px}
+  .chart{gap:5px}
+  .bar .d{font-size:11px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Murphy 的暑期实习申请</h1>
-    <div class="sub" id="sub">正在加载…</div>
+  <header class="mast rise">
+    <span class="mono">Murphy Tang · USC · 2027 暑期实习</span>
+    <h1><span class="ss">SS27</span><span class="t"><small>Spring / Summer 2027</small>Murphy 的实习申请</span></h1>
+    <div class="upd" id="upd">正在加载…</div>
   </header>
-  <section class="stats" id="stats"></section>
-  <section class="note" id="note" hidden></section>
-  <section id="lists"><div class="empty">正在加载…</div></section>
-  <footer>这是 2027 年暑期实习的申请进度，每天自动更新一次。<br>状态说明：已投递 → 在线测评 → 面试中 → 拿到 Offer</footer>
+
+  <section class="sec rise" style="--i:1" aria-labelledby="h-day">
+    <h2 id="h-day">她最近的投入 <span class="mono">Effort</span></h2>
+    <div class="day" id="day"><div class="err">正在加载…</div></div>
+  </section>
+
+  <section class="sec rise" style="--i:2" aria-labelledby="h-num">
+    <h2 id="h-num">申请进度 <span class="mono">Applications</span></h2>
+    <div class="stats" id="stats"></div>
+    <div class="note" id="note" hidden></div>
+  </section>
+
+  <section class="sec rise" style="--i:3" aria-labelledby="h-season">
+    <h2 id="h-season">申请季 <span class="mono">Season</span></h2>
+    <div class="season" id="season"></div>
+  </section>
+
+  <section class="sec rise" style="--i:4" aria-labelledby="h-game">
+    <h2 id="h-game">每日小游戏 <span class="mono">Daily</span></h2>
+    <div class="game" id="game"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-list">
+    <h2 id="h-list">投了哪些公司 <span class="mono">Companies</span></h2>
+    <div id="lists"><div class="err">正在加载…</div></div>
+  </section>
+
+  <footer>
+    <span>状态说明：已投递 → 在线测评 → 面试中 → 拿到 Offer。大公司的暑期实习一般 9 月到次年 2 月陆续开放，投递后几周到一两个月才会有消息。</span>
+    <span>使用时长只统计 Murphy 在申请看板上的时间，打开领英的次数只统计从看板里点开的领英链接。每天中午和晚上（洛杉矶时间）各更新一次。</span>
+  </footer>
 </div>
+
 <script>
+const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const md=d=>{if(!d)return"";const m=d.match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?`${+m[2]}月${+m[3]}日`:d};
-fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{
-  document.getElementById("sub").textContent=`最近更新：${md(d.updated)}`;
-  const c=d.counts||{};
-  const doing=(c["在线测评"]||0)+(c["面试中"]||0);
-  document.getElementById("stats").innerHTML=
-    `<div class="stat"><b>${d.total}</b><span>已投递</span></div>`+
-    `<div class="stat hi"><b>${doing}</b><span>测评/面试中</span></div>`+
-    `<div class="stat hi"><b>${c["拿到 Offer"]||0}</b><span>拿到 Offer</span></div>`;
-  const note=document.getElementById("note");
-  let t=[];
+const md=d=>{const m=String(d||"").match(/^(\d{4})-(\d{2})-(\d{2})/);return m?`${+m[2]}月${+m[3]}日`:""};
+const WK=["周日","周一","周二","周三","周四","周五","周六"];
+const wk=d=>WK[new Date(d+"T12:00:00Z").getUTCDay()];
+const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* ───── data ───── */
+fetch("data.json?t="+Date.now()).then(r=>r.json()).then(render).catch(()=>{
+  $("lists").innerHTML='<div class="err">数据暂时没加载出来，请稍后刷新一下。</div>';$("day").innerHTML='<div class="err">暂时没有数据。</div>';$("upd").textContent="";season(null);
+});
+
+function render(d){
+  const asOf=d.usage&&d.usage.asOf;
+  $("upd").textContent=asOf?`最近更新：${md(asOf)} ${asOf.slice(11,16)}（洛杉矶时间）`:`最近更新：${md(d.updated)}`;
+  renderDay(d.usage);
+  const c=d.counts||{};const doing=(c["在线测评"]||0)+(c["面试中"]||0);
+  $("stats").innerHTML=[["",d.total||0,"已投递"],["hi",doing,"测评 / 面试中"],["ok",c["拿到 Offer"]||0,"拿到 Offer"],["",d.watching||0,"准备投递"]]
+    .map(([k,v,l])=>`<div class="stat ${k}"><b class="num">${v}</b><span>${l}</span></div>`).join("");
+  const t=[];
+  const recent=(d.applied||[]).filter(a=>a.appliedAt&&a.appliedAt>=shift(d.updated,-6)).length;
+  if(recent)t.push(`最近 7 天新投了 <b>${recent}</b> 个岗位。`);
   if(d.watching)t.push(`还有 <b>${d.watching}</b> 个合适的岗位在准备投递。`);
   if(d.upcoming&&d.upcoming.length)t.push(`这些公司的暑期实习还没开放，开放后会投：${d.upcoming.map(esc).join("、")}。`);
-  t.push("大公司的暑期实习一般 9 月到次年 2 月陆续开放，面试通常在投递后几周到一两个月才有消息。");
-  note.innerHTML=t.join("<br>");note.hidden=false;
-  const groups=[["进行中",a=>["在线测评","面试中","拿到 Offer"].includes(a.progress)],["已投递，等待回复",a=>a.progress==="已投递"],["未通过",a=>a.progress==="未通过"]];
+  if(t.length){$("note").innerHTML=t.map(x=>`<span>${x}</span>`).join("");$("note").hidden=false}
+  season(d);
+  renderLists(d.applied||[]);
+}
+function shift(day,n){const t=new Date((day||"1970-01-01")+"T12:00:00Z");t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10)}
+
+function renderDay(u){
+  const el=$("day");
+  if(!u||!u.days||!u.days.length||!u.days.some(x=>x.minutes||x.linkedin)){el.innerHTML='<p class="fine" style="border:0;padding:0">从 10 月 1 日开始记录。明天起这里会显示她每天在申请看板上花的时间，和从看板打开领英的次数。</p>';return}
+  const days=u.days,last=days[days.length-1];
+  const max=Math.max(30,...days.map(x=>x.minutes));
+  el.innerHTML=`<div class="big">
+      <div><b class="num">${last.minutes}<small>分钟</small></b><span>${md(last.date)}在申请看板上</span></div>
+      <div class="li"><b class="num">${last.linkedin}<small>次</small></b><span>${md(last.date)}从看板打开领英</span></div>
+    </div>
+    <div class="chart" role="img" aria-label="最近 7 天每天在看板上的分钟数">${days.map((x,i)=>`<div class="bar${i===days.length-1?" today":""}"><span class="v num">${x.minutes||""}</span><span class="col" style="height:0%" data-h="${Math.round(x.minutes/max*100)}"></span><span class="d">${i===days.length-1?md(x.date):wk(x.date)}</span><span class="li">${x.linkedin?"领英 "+x.linkedin:""}</span></div>`).join("")}</div>
+    <p class="fine">最近 7 天合计 ${u.weekMinutes||0} 分钟，从看板打开领英 ${u.weekLinkedin||0} 次。柱子是每天在看板上的分钟数，下面的数字是当天打开领英的次数。</p>`;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>el.querySelectorAll(".col").forEach(c=>c.style.height=Math.max(2,+c.dataset.h)+"%")));
+}
+
+function season(d){
+  const S0=Date.UTC(2026,8,1),S1=Date.UTC(2027,7,31),J=Date.UTC(2027,5,1);
+  const bj=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Shanghai"});
+  const now=Date.parse(bj+"T00:00:00Z");
+  const p=x=>Math.max(0,Math.min(100,(x-S0)/(S1-S0)*100));
+  const left=Math.max(0,Math.round((J-now)/864e5));
+  const M=[["9月",8],["11月",10],["1月",12],["3月",14],["5月",16],["7月",18]];
+  $("season").innerHTML=`<div class="count"><b class="num">${left}</b><span>天后，2027 年 6 月实习开始</span></div>
+    <div class="rail" aria-hidden="true"><div class="line"></div><div class="done" style="width:0%" data-w="${p(now)}"></div><div class="band" style="left:${p(J)}%;width:${p(Date.UTC(2027,7,20))-p(J)}%"></div><div class="now" style="left:${p(now)}%"><span>今天</span></div>${M.map(([l,m])=>`<span class="m" style="left:${p(Date.UTC(2026,m,1))}%">${l}</span>`).join("")}</div>
+    <p class="fine">现在是投递高峰期。9 月到 12 月大公司陆续开放，面试多在 11 月到次年 3 月，6 月到 8 月是实习期（图中斜线部分）。</p>`;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{const x=document.querySelector(".rail .done");if(x)x.style.width=x.dataset.w+"%"}));
+}
+
+function renderLists(applied){
+  const groups=[["进行中","Active",a=>["在线测评","面试中","拿到 Offer"].includes(a.progress)],["已投递，等待回复","Waiting",a=>a.progress==="已投递"],["未通过","Closed",a=>a.progress==="未通过"]];
+  const cls={"已投递":"applied","在线测评":"doing","面试中":"doing","拿到 Offer":"offer","未通过":"no"};
   let h="";
-  for(const [name,fn] of groups){
-    const rows=d.applied.filter(fn); if(!rows.length)continue;
-    h+=`<h2>${name}（${rows.length}）</h2><div class="list">`+rows.map(a=>`<div class="item${a.progress==="未通过"?" dim":""}">
-      <div class="top"><div class="co">${esc(a.company)}</div><span class="badge b-${esc(a.progress.replace(/\s/g,""))}">${esc(a.progress)}</span></div>
+  for(const [name,en,fn] of groups){
+    const rows=applied.filter(fn);if(!rows.length)continue;
+    const LIM=6,many=rows.length>LIM;
+    h+=`<div class="group"><h3>${name}<span class="mono">${en} · ${rows.length}</span></h3>`+rows.map((a,i)=>`<div class="tag${a.progress==="未通过"?" dim":""}"${many&&i>=LIM?' hidden data-more="'+en+'"':""}>
+      <div class="co">${esc(a.company)}</div><span class="badge ${cls[a.progress]||""}">${esc(a.progress)}</span>
       <div class="role">${esc(a.title)}</div>
       <div class="meta">${a.city?esc(a.city)+" · ":""}${md(a.appliedAt)}投递${a.progressAt&&a.progressAt!==a.appliedAt?" · "+md(a.progressAt)+"更新":""}</div>
-    </div>`).join("")+`</div>`;
+    </div>`).join("")+(many?`<button class="more" data-show="${en}">再显示 ${rows.length-LIM} 个</button>`:"")+`</div>`;
   }
-  document.getElementById("lists").innerHTML=h||`<div class="empty">还没有投递记录。</div>`;
-}).catch(()=>{document.getElementById("lists").innerHTML=`<div class="err">数据暂时没加载出来，请稍后刷新一下。</div>`;document.getElementById("sub").textContent=""});
+  $("lists").innerHTML=h||'<div class="err">还没有投递记录。</div>';
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-show]");if(!b)return;document.querySelectorAll(`[data-more="${b.dataset.show}"]`).forEach(x=>x.hidden=false);b.remove()});
+
+/* ───── daily game ───── */
+const WORDS=[["Internship","实习"],["Interview","面试"],["Offer","录用通知"],["Resume","简历"],["Cover letter","求职信"],["Merchandising","商品企划"],["Buyer","买手"],["Deadline","截止日期"],["Networking","拓展人脉"],["Recruiter","招聘专员"],["Showroom","展厅"],["Wholesale","批发"],["Sell-through","售罄率"],["Brand","品牌"],["Full-time","全职"],["Rolling basis","滚动录取"],["Assessment","在线测评"],["Hiring manager","用人经理"],["Portfolio","作品集"],["Trend","潮流趋势"],["Sample","样品"],["Retail","零售"],["Campus","校园"],["Graduate","研究生"]];
+const QUIZ=[
+ ["SS27 里的「SS」是什么意思？",["春夏季","秋冬季","特别系列","超级促销"],0,"时尚行业按季节命名系列：SS 是 Spring/Summer 春夏，FW 是 Fall/Winter 秋冬。SS27 就是 2027 年春夏。"],
+ ["Coach（蔻驰）是在哪座城市创立的？",["纽约","巴黎","米兰","伦敦"],0,"Coach 1941 年创立于纽约，现在属于 Tapestry 集团。Murphy 正在关注 Tapestry 的暑期实习。"],
+ ["下面哪座城市不是「四大时装周」之一？",["东京","纽约","米兰","巴黎"],0,"四大时装周是纽约、伦敦、米兰和巴黎。"],
+ ["Murphy 读本科的 FIT 位于哪座城市？",["纽约","洛杉矶","波士顿","芝加哥"],0,"FIT（纽约州立大学时装技术学院）在纽约曼哈顿。"],
+ ["USC（南加州大学）位于哪座城市？",["洛杉矶","旧金山","圣地亚哥","西雅图"],0,"USC 在洛杉矶市中心附近，Murphy 在这里读硕士。"],
+ ["Hugo Boss 是哪个国家的品牌？",["德国","意大利","法国","英国"],0,"Hugo Boss 来自德国。"],
+ ["Sephora（丝芙兰）最早来自哪个国家？",["法国","美国","日本","韩国"],0,"丝芙兰来自法国，现在属于 LVMH 集团。"],
+ ["LVMH 里的「LV」指的是哪个品牌？",["路易威登","兰蔻","罗意威","浪凡"],0,"LV 是 Louis Vuitton 路易威登，MH 是酩悦（Moët）和轩尼诗（Hennessy）。"],
+ ["Levi's 最有名的产品是？",["牛仔裤","运动鞋","香水","手表"],0,"Levi Strauss & Co. 以蓝色牛仔裤闻名，总部在旧金山。"],
+ ["Victoria's Secret 的总部在美国哪个州？",["俄亥俄州","加利福尼亚州","纽约州","德克萨斯州"],0,"维密总部在俄亥俄州哥伦布市附近。Murphy 投了它的暑期实习。"],
+ ["Nike 的总部在哪个州？",["俄勒冈州","加利福尼亚州","华盛顿州","纽约州"],0,"耐克总部在俄勒冈州的 Beaverton。"],
+ ["Tiffany 标志性的礼盒是什么颜色？",["蒂芙尼蓝","酒红色","黑色","香槟金"],0,"那种浅蓝绿色叫 Tiffany Blue，是品牌注册的颜色。"],
+ ["香奈儿品牌的创始人是？",["可可·香奈儿","伊夫·圣罗兰","克里斯汀·迪奥","乔治·阿玛尼"],0,"Gabrielle「Coco」Chanel 在 1910 年创立了香奈儿。"],
+ ["美国大公司的暑期实习一般多长？",["10 到 12 周","1 到 2 周","半年","一年"],0,"大多是 10 到 12 周，从 6 月初到 8 月中。"],
+ ["求职时收到「Offer」意味着？",["被录用了","要再面试一轮","简历被拒","需要交材料"],0,"Offer 是公司正式发出的录用通知。"],
+ ["Under Armour（安德玛）的总部在哪座城市？",["巴尔的摩","波士顿","芝加哥","迈阿密"],0,"安德玛总部在马里兰州巴尔的摩。Murphy 本周看到了它的暑期实习。"],
+ ["「Merchandising」在时尚公司里主要做什么？",["决定卖哪些商品、卖多少","设计衣服版型","拍广告","管理门店装修"],0,"商品企划负责选品、定价、订货量和上市节奏，是 Murphy 的主要求职方向之一。"],
+ ["Estée Lauder（雅诗兰黛）的总部在哪里？",["纽约","巴黎","洛杉矶","东京"],0,"雅诗兰黛集团总部在纽约。"]
+];
+const MEM=["纽约","洛杉矶","实习","面试","Offer","简历","买手","品牌","样品","展厅","时装周","春夏"];
+
+function bjDay(){return new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Shanghai"})}
+function rng(seed){let h=1779033703^seed.length;for(let i=0;i<seed.length;i++){h=Math.imul(h^seed.charCodeAt(i),3432918353);h=h<<13|h>>>19}let a=h>>>0;return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function shuffle(arr,r){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+const GDAY=bjDay();
+const KIND=["match","quiz","memory"][Math.floor((Date.parse(GDAY+"T00:00:00Z")-Date.UTC(2026,0,1))/864e5)%3];
+function streakInfo(){const s=store.get("ss27-streak")||{last:"",n:0};return s}
+function markDone(result){
+  const s=streakInfo();if(s.last!==GDAY){s.n=(s.last===shift(GDAY,-1))?s.n+1:1;s.last=GDAY;store.set("ss27-streak",s)}
+  store.set("ss27-game-"+GDAY,result);
+  const b=document.querySelector(".streak b");if(b)b.textContent=streakInfo().n;
+}
+function gameShell(title,sub,body){
+  const s=streakInfo();const n=s.last===GDAY||s.last===shift(GDAY,-1)?s.n:0;
+  $("game").innerHTML=`<div class="head"><div><h3>${title}</h3><p>${sub}</p></div><div class="streak"><b class="num">${n}</b><span>连续天数</span></div></div>${body}`;
+}
+function winBox(msg,sub){return `<div class="win rise"><b>${msg}</b><span>${sub}</span></div><div class="gfoot"><span>明天会换一个新游戏。</span><button class="btn" id="g-again">再玩一次</button></div>`}
+function startGame(){
+  const r=rng("ss27-"+GDAY);
+  if(KIND==="match")matchGame(r);else if(KIND==="quiz")quizGame(r);else memoryGame(r);
+}
+document.addEventListener("click",e=>{if(e.target.id==="g-again")startGame()});
+
+function matchGame(r){
+  const pick=shuffle(WORDS,r).slice(0,5);const L=shuffle(pick,r),R=shuffle(pick,r);
+  let sel=null,left=5,miss=0;
+  gameShell("中英配对","Murphy 求职时每天都会遇到这些英文词。先点左边的英文，再点右边对应的中文。",
+    `<div class="pairs"><div class="colm">${L.map(p=>`<button class="tile en" data-k="${esc(p[0])}" data-s="L">${esc(p[0])}</button>`).join("")}</div><div class="colm">${R.map(p=>`<button class="tile" data-k="${esc(p[0])}" data-s="R">${esc(p[1])}</button>`).join("")}</div></div><div class="gfoot" id="g-st"><span>还剩 5 对</span></div>`);
+  $("game").onclick=e=>{
+    const t=e.target.closest(".tile");if(!t||t.classList.contains("ok"))return;
+    if(!sel||sel.dataset.s===t.dataset.s){if(sel)sel.classList.remove("sel");sel=t;t.classList.add("sel");return}
+    if(sel.dataset.k===t.dataset.k){[sel,t].forEach(x=>{x.classList.remove("sel");x.classList.add("ok");x.disabled=true});left--}
+    else{miss++;[sel,t].forEach(x=>{x.classList.remove("sel","bad");void x.offsetWidth;x.classList.add("bad")})}
+    sel=null;
+    if(left){$("g-st").innerHTML=`<span>还剩 ${left} 对${miss?" · 配错 "+miss+" 次":""}</span>`}
+    else{markDone({kind:"match",miss});$("g-st").outerHTML=winBox(miss?`全部配对完成，配错 ${miss} 次。`:"一次都没配错！",pick.map(p=>p[0]+" = "+p[1]).join("　"));confetti()}
+  };
+}
+function quizGame(r){
+  const qs=shuffle(QUIZ,r).slice(0,3).map(q=>{const idx=shuffle([0,1,2,3],r);return {t:q[0],o:idx.map(i=>q[1][i]),a:idx.indexOf(q[2]),x:q[3]}});
+  let i=0,score=0;
+  const show=()=>{const q=qs[i];
+    gameShell("时尚小问答","三道题，和 Murphy 申请的公司、学校和行业有关。",
+      `<div class="q"><span class="qn">第 ${i+1} 题 / 共 3 题</span><div class="qt">${esc(q.t)}</div>${q.o.map((o,k)=>`<button class="opt" data-k="${k}"><i>${"ABCD"[k]}</i>${esc(o)}</button>`).join("")}<div id="g-x"></div></div>`);
+    $("game").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;
+      const k=+b.dataset.k;document.querySelectorAll(".opt").forEach(x=>x.disabled=true);
+      document.querySelectorAll(".opt")[q.a].classList.add("right");if(k!==q.a)b.classList.add("wrong");else score++;
+      const last=i===2;
+      $("g-x").innerHTML=`<p class="explain">${k===q.a?"答对了。":"正确答案是 "+"ABCD"[q.a]+"。"}${esc(q.x)}</p><div class="gfoot"><span>已答对 ${score} 题</span><button class="btn go" id="g-next">${last?"看结果":"下一题"}</button></div>`;
+      $("g-next").onclick=()=>{if(!last){i++;show()}else{markDone({kind:"quiz",score});gameShell("时尚小问答","今天的三道题答完了。",winBox(`答对 ${score} / 3 题`,score===3?"全对，真厉害！":"明天再来挑战新的题目。"));if(score===3)confetti()}};
+    };
+  };
+  show();
+}
+function memoryGame(r){
+  const words=shuffle(MEM,r).slice(0,6);const deck=shuffle(words.concat(words),r);
+  let open=[],found=0,steps=0,lock=false;
+  gameShell("翻牌记忆","翻开两张牌，一样的就配成一对。找出全部 6 对。",
+    `<div class="cards">${deck.map((w,i)=>`<button class="card" data-i="${i}" aria-label="第 ${i+1} 张牌"><span class="in"><span class="f">SS</span><span class="b">${esc(w)}</span></span></button>`).join("")}</div><div class="gfoot" id="g-st"><span>已翻 0 次</span></div>`);
+  $("game").onclick=e=>{
+    const c=e.target.closest(".card");if(!c||lock||c.classList.contains("up")||c.classList.contains("done"))return;
+    c.classList.add("up");open.push(c);
+    if(open.length<2)return;
+    steps++;const [a,b]=open;open=[];
+    if(deck[a.dataset.i]===deck[b.dataset.i]){setTimeout(()=>{a.classList.add("done");b.classList.add("done")},300);found++}
+    else{lock=true;setTimeout(()=>{a.classList.remove("up");b.classList.remove("up");lock=false},850)}
+    if(found<6){$("g-st").innerHTML=`<span>已翻 ${steps} 次 · 找到 ${found} 对</span>`}
+    else{markDone({kind:"memory",steps});setTimeout(()=>{$("g-st").outerHTML=winBox(`用 ${steps} 次全部找到！`,steps<=9?"记性真好。":"最少只需要 6 次，明天再试试。");confetti()},500)}
+  };
+}
+function confetti(){
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  const g=$("game"),cv=document.createElement("canvas");cv.className="confetti";g.appendChild(cv);
+  const w=cv.width=g.clientWidth,h=cv.height=g.clientHeight,x=cv.getContext("2d");
+  const cols=["#2633d1","#17784a","#141518","#9a5800"];
+  const ps=Array.from({length:70},()=>({x:w/2+(Math.random()-.5)*60,y:h*.35,vx:(Math.random()-.5)*7,vy:-Math.random()*7-3,s:Math.random()*5+3,c:cols[Math.floor(Math.random()*4)],r:Math.random()*6}));
+  let f=0;(function tick(){x.clearRect(0,0,w,h);ps.forEach(p=>{p.vy+=.22;p.x+=p.vx;p.y+=p.vy;p.r+=.1;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);x.restore()});if(++f<110)requestAnimationFrame(tick);else cv.remove()})();
+}
+(function(){
+  const done=store.get("ss27-game-"+GDAY);
+  if(done){const name={match:"中英配对",quiz:"时尚小问答",memory:"翻牌记忆"}[done.kind]||"今日游戏";
+    const res=done.kind==="quiz"?`答对 ${done.score} / 3 题`:done.kind==="memory"?`用 ${done.steps} 次找到全部`:`配错 ${done.miss||0} 次`;
+    gameShell(name,"今天的游戏已经完成。",winBox("今天已经玩过了："+res,"可以再玩一次，连续天数不会重复计算。"))}
+  else startGame();
+})();
 </script>
 </body>
 </html>

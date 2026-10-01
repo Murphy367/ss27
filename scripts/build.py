@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build data.json for the parents' page from an SS27 board DB export.
 Usage: python3 scripts/build.py <db_dir> <meta_status.json> <out data.json>
-Only company / role / city / progress / dates are published. No resumes, contacts or notes."""
+Only company / role / city / progress / dates, plus daily totals of board time and LinkedIn opens, are published. No resumes, contacts or notes."""
 import json, glob, os, re, sys, datetime
 
 db_dir, meta_path, out = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -46,6 +46,34 @@ watching = [j for j in jobs if j.get("origin") != "self" and j.get("stage") == "
 upcoming = sorted({re.split(r"[（(]", clean(j.get("company")))[0].strip()
                    for j in jobs if j.get("stage") == "upcoming" and j.get("status") != "applied"})
 
+# Usage: one board doc per tab per day -> {date, sec, li}. Only totals per day are published.
+try:
+    from zoneinfo import ZoneInfo
+    la_now = datetime.datetime.now(ZoneInfo("America/Los_Angeles"))
+except Exception:
+    la_now = datetime.datetime.utcnow() - datetime.timedelta(hours=7)
+la_today = la_now.date()
+per_day = {}
+for f in glob.glob(os.path.join(db_dir, "usage", "*.json")):
+    try:
+        u = json.load(open(f)); u = u.get("data", u)
+    except Exception:
+        continue
+    d = str(u.get("date") or "")
+    if not re.match(r"^\d{4}-\d{2}-\d{2}$", d):
+        continue
+    p = per_day.setdefault(d, [0, 0])
+    p[0] += int(u.get("sec") or 0); p[1] += int(u.get("li") or 0)
+days = []
+for i in range(6, -1, -1):
+    d = (la_today - datetime.timedelta(days=i)).isoformat()
+    sec, li = per_day.get(d, [0, 0])
+    days.append({"date": d, "minutes": round(sec / 60), "linkedin": li})
+usage = {"asOf": la_now.strftime("%Y-%m-%d %H:%M"),
+         "days": days,
+         "weekMinutes": sum(x["minutes"] for x in days),
+         "weekLinkedin": sum(x["linkedin"] for x in days)}
+
 counts = {k: sum(1 for a in applied if a["progress"] == k) for k in order}
 data = {
     "updated": meta.get("lastRun") or datetime.date.today().isoformat(),
@@ -55,6 +83,7 @@ data = {
     "watching": len(watching),
     "upcoming": upcoming,
     "applied": applied,
+    "usage": usage,
 }
 json.dump(data, open(out, "w"), ensure_ascii=False, indent=1)
-print(f"applied={len(applied)} watching={len(watching)} upcoming={len(upcoming)}")
+print(f"applied={len(applied)} watching={len(watching)} upcoming={len(upcoming)} usage_today={days[-1]}")
