@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-30",
- "generatedAt": "2026-10-01T08:17:57Z",
+ "updated": "2026-10-01",
+ "generatedAt": "2026-10-01T19:19:11Z",
  "total": 15,
  "counts": {
   "拿到 Offer": 0,
@@ -9,7 +9,7 @@
   "已投递": 13,
   "未通过": 2
  },
- "watching": 3,
+ "watching": 11,
  "upcoming": [
   "Hugo Boss",
   "Nordstrom",
@@ -216,7 +216,7 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-01 01:17",
+  "asOf": "2026-10-01 12:19",
   "days": [
    {
     "date": "2026-09-25",
@@ -250,11 +250,11 @@
    },
    {
     "date": "2026-10-01",
-    "minutes": 23,
+    "minutes": 59,
     "linkedin": 1
    }
   ],
-  "weekMinutes": 23,
+  "weekMinutes": 59,
   "weekLinkedin": 1
  }
 }
