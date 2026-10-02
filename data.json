@@ -1,15 +1,15 @@
 {
  "updated": "2026-10-01",
- "generatedAt": "2026-10-01T19:19:11Z",
- "total": 15,
+ "generatedAt": "2026-10-02T19:56:31Z",
+ "total": 17,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 0,
   "在线测评": 0,
-  "已投递": 13,
+  "已投递": 15,
   "未通过": 2
  },
- "watching": 11,
+ "watching": 12,
  "upcoming": [
   "Hugo Boss",
   "Nordstrom",
@@ -28,6 +28,32 @@
    "company": "Victoria's Secret & Co.",
    "title": "Summer 2027 Merchandising Internship",
    "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-01",
+   "progressAt": "2026-10-01"
+  },
+  {
+   "companyZh": "Penguin Random House（企鹅兰登书屋，全球最大的大众图书出版社）",
+   "titleZh": "成人图书营销实习生（2027 暑期，远程）",
+   "cityZh": "纽约（远程，需在美国、按美东时间上班）",
+   "jd": "工作内容：帮成人图书做营销——找媒体和网红资源、做社交媒体内容、寄送宣传样书、在团队会上出推广点子。\n要求：18 岁以上、实习期间住在美国，能做满 10 周；不要求在读，只要 2028 年 6 月前能全职入职。\n时间待遇：2027 年 6 月 7 日到 8 月 12 日，每周 28 小时，时薪 21 美元。",
+   "fact": "「兰登书屋」这个名字来自创始人 Bennett Cerf 的一句玩笑：1927 年他说「我们就随便（at random）出几本书吧」，Random House 就这么诞生了——随便起的名，一不小心成了出版界顶流。",
+   "company": "Penguin Random House",
+   "title": "Summer 2027, Remote Internship, Marketing Adult",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-01",
+   "progressAt": "2026-10-01"
+  },
+  {
+   "companyZh": "Under Armour（安德玛）",
+   "titleZh": "商品企划实习生（2027 暑期 Rookie 项目）",
+   "cityZh": "马里兰州巴尔的摩（公司总部，混合办公，提供搬迁补助）",
+   "jd": "工作内容：分析消费者洞察和市场趋势，和产品、计划团队一起决定卖哪些货、怎么组合；暑期负责一个跨部门业务项目。\n要求：在读本科或研究生，2027 年 12 月到 2028 年 8 月之间毕业；需无需公司担保即可在美国工作。\n时间：10 月起开始审核面试，滚动录取。",
+   "fact": "安德玛 2003 年那支「Protect This House（守护这个家）」广告火遍美国球场，这句口号后来成了各种球队更衣室的口头禅——卖衣服卖出了一句全民应援词。",
+   "company": "Under Armour",
+   "title": "2027 Summer Internship, Merchandising（Rookie Program）",
+   "city": "Baltimore, MD",
    "progress": "已投递",
    "appliedAt": "2026-10-01",
    "progressAt": "2026-10-01"
@@ -216,13 +242,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-01 12:19",
+  "asOf": "2026-10-02 12:56",
   "days": [
-   {
-    "date": "2026-09-25",
-    "minutes": 0,
-    "linkedin": 0
-   },
    {
     "date": "2026-09-26",
     "minutes": 0,
@@ -250,11 +271,16 @@
    },
    {
     "date": "2026-10-01",
-    "minutes": 59,
-    "linkedin": 1
+    "minutes": 118,
+    "linkedin": 13
+   },
+   {
+    "date": "2026-10-02",
+    "minutes": 11,
+    "linkedin": 0
    }
   ],
-  "weekMinutes": 59,
-  "weekLinkedin": 1
+  "weekMinutes": 129,
+  "weekLinkedin": 13
  }
 }
