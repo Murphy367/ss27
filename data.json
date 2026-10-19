@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07",
- "generatedAt": "2026-10-08T05:46:08Z",
+ "updated": "2026-10-16",
+ "generatedAt": "2026-10-19T04:32:51Z",
  "total": 24,
  "counts": {
   "拿到 Offer": 0,
@@ -9,10 +9,10 @@
   "已投递": 22,
   "未通过": 2
  },
- "watching": 2,
+ "watching": 22,
  "upcoming": [
+  "Cosm",
   "Hugo Boss",
-  "Nordstrom",
   "Ralph Lauren",
   "Sephora",
   "Skechers",
@@ -333,45 +333,45 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-07 22:46",
+  "asOf": "2026-10-18 21:32",
   "days": [
    {
-    "date": "2026-10-01",
-    "minutes": 118,
-    "linkedin": 13
+    "date": "2026-10-12",
+    "minutes": 122,
+    "linkedin": 29
    },
    {
-    "date": "2026-10-02",
-    "minutes": 66,
-    "linkedin": 11
+    "date": "2026-10-13",
+    "minutes": 75,
+    "linkedin": 41
    },
    {
-    "date": "2026-10-03",
-    "minutes": 23,
-    "linkedin": 10
+    "date": "2026-10-14",
+    "minutes": 19,
+    "linkedin": 15
    },
    {
-    "date": "2026-10-04",
+    "date": "2026-10-15",
+    "minutes": 3,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-16",
+    "minutes": 11,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-17",
     "minutes": 0,
     "linkedin": 0
    },
    {
-    "date": "2026-10-05",
+    "date": "2026-10-18",
     "minutes": 0,
     "linkedin": 0
-   },
-   {
-    "date": "2026-10-06",
-    "minutes": 0,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-07",
-    "minutes": 81,
-    "linkedin": 11
    }
   ],
-  "weekMinutes": 288,
-  "weekLinkedin": 45
+  "weekMinutes": 230,
+  "weekLinkedin": 85
  }
 }
