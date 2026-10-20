@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-16",
- "generatedAt": "2026-10-19T04:32:51Z",
- "total": 24,
+ "updated": "2026-10-19",
+ "generatedAt": "2026-10-20T17:28:15Z",
+ "total": 25,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 0,
   "在线测评": 0,
-  "已投递": 22,
+  "已投递": 23,
   "未通过": 2
  },
- "watching": 22,
+ "watching": 18,
  "upcoming": [
   "Cosm",
   "Hugo Boss",
@@ -19,6 +19,19 @@
   "Tapestry"
  ],
  "applied": [
+  {
+   "companyZh": "Express / Bonobos（美国平价服饰连锁 Express 旗下的男装品牌 Bonobos）",
+   "titleZh": "商品企划实习生（Bonobos 品牌，2027 暑期）",
+   "cityZh": "纽约州纽约市（纽约办公室，每周到岗 4 天）",
+   "jd": "工作内容：协助男装新品上市，整理款式信息、管理样品，做竞品和流行趋势调研，参与网店商品展示和商品报表。\n要求：能完整参加 10 周项目，GPA 最好 3.2 以上，须已有美国全职工作许可（公司不办工作签证），住宿需自理。\n时间待遇：2027 年 6 月 2 日至 8 月 5 日，全职每周 40 小时，带薪，标价 23–30 美元。",
+   "fact": "Bonobos 2007 年靠卖“更合身的男士卡其裤”起家，2017 年被沃尔玛收购，2023 年又被打包转手给 Express——一条裤子的“职场跳槽史”比实习生还精彩。",
+   "company": "EXPRESS（PHOENIX Retail，Bonobos 品牌）",
+   "title": "Merchandising Summer Internship（Bonobos，Summer 2027）",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-19",
+   "progressAt": "2026-10-19"
+  },
   {
    "companyZh": "Endeavor Global（全球创业者支持网络，非营利组织）",
    "titleZh": "合作伙伴战略实习生（2027 暑期）",
@@ -333,18 +346,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-18 21:32",
+  "asOf": "2026-10-20 10:28",
   "days": [
-   {
-    "date": "2026-10-12",
-    "minutes": 122,
-    "linkedin": 29
-   },
-   {
-    "date": "2026-10-13",
-    "minutes": 75,
-    "linkedin": 41
-   },
    {
     "date": "2026-10-14",
     "minutes": 19,
@@ -367,11 +370,21 @@
    },
    {
     "date": "2026-10-18",
+    "minutes": 17,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-19",
+    "minutes": 35,
+    "linkedin": 61
+   },
+   {
+    "date": "2026-10-20",
     "minutes": 0,
     "linkedin": 0
    }
   ],
-  "weekMinutes": 230,
-  "weekLinkedin": 85
+  "weekMinutes": 85,
+  "weekLinkedin": 76
  }
 }
