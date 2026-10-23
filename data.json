@@ -1,16 +1,17 @@
 {
- "updated": "2026-10-19",
- "generatedAt": "2026-10-20T17:28:15Z",
- "total": 25,
+ "updated": "2026-10-22",
+ "generatedAt": "2026-10-23T15:41:16Z",
+ "total": 26,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 0,
   "在线测评": 0,
   "已投递": 23,
-  "未通过": 2
+  "未通过": 3
  },
- "watching": 18,
+ "watching": 4,
  "upcoming": [
+  "Authentic Brands Group",
   "Cosm",
   "Hugo Boss",
   "Ralph Lauren",
@@ -19,6 +20,19 @@
   "Tapestry"
  ],
  "applied": [
+  {
+   "companyZh": "NBA（美国职业篮球联赛）",
+   "titleZh": "研究生暑期实习生（2027 NBA 暑期实习项目）",
+   "cityZh": "纽约州纽约市（每周可远程 1 天）",
+   "jd": "工作内容：在联盟总部的企业战略、全球合作伙伴或球队营销与运营等部门，做市场调研、分析品牌合作和投资机会、整理案例，给团队提供分析支持。\n要求：在读 MBA 或其他研究生，有商科、金融、营销或战略相关经验，分析能力强，会用 AI 工具。\n时间待遇：2027 年 6 月 7 日到 8 月 13 日，共 10 周，时薪 35 美元。",
+   "fact": "1891 年篮球刚发明时，篮筐是两个装桃子的筐，筐底没掏空，每进一个球都得有人把球从筐里掏出来——可以说是最早的“人工回收系统”。",
+   "company": "National Basketball Association (NBA)",
+   "title": "Graduate - MBA Intern（2027 NBA Summer Internship）",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-21",
+   "progressAt": "2026-10-21"
+  },
   {
    "companyZh": "Express / Bonobos（美国平价服饰连锁 Express 旗下的男装品牌 Bonobos）",
    "titleZh": "商品企划实习生（Bonobos 品牌，2027 暑期）",
@@ -31,19 +45,6 @@
    "progress": "已投递",
    "appliedAt": "2026-10-19",
    "progressAt": "2026-10-19"
-  },
-  {
-   "companyZh": "Endeavor Global（全球创业者支持网络，非营利组织）",
-   "titleZh": "合作伙伴战略实习生（2027 暑期）",
-   "cityZh": "纽约曼哈顿下城（混合办公，每周到岗 3 天）",
-   "jd": "工作内容：研究和梳理潜在的企业、基金会合作伙伴；优化组织的赞助合作方案；为真实客户写定制合作提案（PPT 和文档）；和全球 45 个以上的地方办公室沟通收集反馈；暑期结束向 CEO 汇报成果。\n要求：本科大三大四或研究生，对创业和合作拓展有兴趣，分析能力强，会做专业 PPT，会用 Excel 更好。\n时间待遇：2027 年 6 月 7 日至 8 月 13 日共 10 周，时薪 17 美元（纽约州最低工资），每周最多 40 小时。",
-   "fact": "创始人 Linda Rottenberg 1997 年创办 Endeavor 时，因为想法太大胆被人叫作「la chica loca」（疯丫头），她后来干脆写了本书叫《疯狂是一种赞美》——主打一个「你说我疯，我当你夸」。",
-   "company": "Endeavor Global（创业者网络非营利组织）",
-   "title": "Partnerships Strategy Intern | Undergraduate or Graduate - Summer 2027",
-   "city": "New York",
-   "progress": "已投递",
-   "appliedAt": "2026-10-07",
-   "progressAt": "2026-10-07"
   },
   {
    "companyZh": "Mary Kay（玫琳凯，美国美妆护肤品牌）",
@@ -319,6 +320,19 @@
    "progressAt": "2026-09-23"
   },
   {
+   "companyZh": "Endeavor Global（全球创业者支持网络，非营利组织）",
+   "titleZh": "合作伙伴战略实习生（2027 暑期）",
+   "cityZh": "纽约曼哈顿下城（混合办公，每周到岗 3 天）",
+   "jd": "工作内容：研究和梳理潜在的企业、基金会合作伙伴；优化组织的赞助合作方案；为真实客户写定制合作提案（PPT 和文档）；和全球 45 个以上的地方办公室沟通收集反馈；暑期结束向 CEO 汇报成果。\n要求：本科大三大四或研究生，对创业和合作拓展有兴趣，分析能力强，会做专业 PPT，会用 Excel 更好。\n时间待遇：2027 年 6 月 7 日至 8 月 13 日共 10 周，时薪 17 美元（纽约州最低工资），每周最多 40 小时。",
+   "fact": "创始人 Linda Rottenberg 1997 年创办 Endeavor 时，因为想法太大胆被人叫作「la chica loca」（疯丫头），她后来干脆写了本书叫《疯狂是一种赞美》——主打一个「你说我疯，我当你夸」。",
+   "company": "Endeavor Global（创业者网络非营利组织）",
+   "title": "Partnerships Strategy Intern | Undergraduate or Graduate - Summer 2027",
+   "city": "New York",
+   "progress": "未通过",
+   "appliedAt": "2026-10-07",
+   "progressAt": "2026-10-22"
+  },
+  {
    "companyZh": "TikTok（TikTok Shop 电商）",
    "titleZh": "整合营销与促销经理实习生（2027 暑期，硕士/MBA）",
    "cityZh": "洛杉矶",
@@ -346,23 +360,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-20 10:28",
+  "asOf": "2026-10-23 08:41",
   "days": [
-   {
-    "date": "2026-10-14",
-    "minutes": 19,
-    "linkedin": 15
-   },
-   {
-    "date": "2026-10-15",
-    "minutes": 3,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-16",
-    "minutes": 11,
-    "linkedin": 0
-   },
    {
     "date": "2026-10-17",
     "minutes": 0,
@@ -380,11 +379,26 @@
    },
    {
     "date": "2026-10-20",
+    "minutes": 12,
+    "linkedin": 42
+   },
+   {
+    "date": "2026-10-21",
+    "minutes": 114,
+    "linkedin": 1
+   },
+   {
+    "date": "2026-10-22",
+    "minutes": 106,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-23",
     "minutes": 0,
     "linkedin": 0
    }
   ],
-  "weekMinutes": 85,
-  "weekLinkedin": 76
+  "weekMinutes": 284,
+  "weekLinkedin": 104
  }
 }
