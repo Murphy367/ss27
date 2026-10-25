@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22",
- "generatedAt": "2026-10-23T15:41:16Z",
+ "updated": "2026-10-24",
+ "generatedAt": "2026-10-25T04:49:36Z",
  "total": 26,
  "counts": {
   "拿到 Offer": 0,
@@ -9,7 +9,7 @@
   "已投递": 23,
   "未通过": 3
  },
- "watching": 4,
+ "watching": 6,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
@@ -360,13 +360,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-23 08:41",
+  "asOf": "2026-10-24 21:49",
   "days": [
-   {
-    "date": "2026-10-17",
-    "minutes": 0,
-    "linkedin": 0
-   },
    {
     "date": "2026-10-18",
     "minutes": 17,
@@ -394,6 +389,11 @@
    },
    {
     "date": "2026-10-23",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-24",
     "minutes": 0,
     "linkedin": 0
    }
