@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24",
- "generatedAt": "2026-10-25T04:49:36Z",
+ "updated": "2026-10-26",
+ "generatedAt": "2026-10-27T04:50:03Z",
  "total": 26,
  "counts": {
   "拿到 Offer": 0,
@@ -9,13 +9,13 @@
   "已投递": 23,
   "未通过": 3
  },
- "watching": 6,
+ "watching": 11,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
+  "Fanatics",
   "Hugo Boss",
   "Ralph Lauren",
-  "Sephora",
   "Skechers",
   "Tapestry"
  ],
@@ -360,18 +360,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-24 21:49",
+  "asOf": "2026-10-26 21:50",
   "days": [
-   {
-    "date": "2026-10-18",
-    "minutes": 17,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-19",
-    "minutes": 35,
-    "linkedin": 61
-   },
    {
     "date": "2026-10-20",
     "minutes": 12,
@@ -396,9 +386,19 @@
     "date": "2026-10-24",
     "minutes": 0,
     "linkedin": 0
+   },
+   {
+    "date": "2026-10-25",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-26",
+    "minutes": 9,
+    "linkedin": 2
    }
   ],
-  "weekMinutes": 284,
-  "weekLinkedin": 104
+  "weekMinutes": 241,
+  "weekLinkedin": 45
  }
 }
