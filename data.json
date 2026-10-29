@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-26",
- "generatedAt": "2026-10-27T04:50:03Z",
- "total": 26,
+ "updated": "2026-10-28",
+ "generatedAt": "2026-10-29T04:51:53Z",
+ "total": 30,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 0,
   "在线测评": 0,
-  "已投递": 23,
+  "已投递": 27,
   "未通过": 3
  },
- "watching": 11,
+ "watching": 2,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
@@ -20,6 +20,58 @@
   "Tapestry"
  ],
  "applied": [
+  {
+   "companyZh": "USGA（美国高尔夫球协会，非营利组织，主办美国公开赛）",
+   "titleZh": "2027 美国高尔夫公开赛 赛事商品短期实习生",
+   "cityZh": "加州圆石滩（赛事现场；非本地可协助住宿和交通）",
+   "jd": "工作内容：在美国公开赛 3.4 万平方英尺的官方商品馆，从收货、点货、搬箱子、搭货架，到陈列、给模特穿衣服、做标牌，再到比赛期间轮班卖货、补货、带志愿者，赛后盘点撤场，对接 Nike、Under Armour 等 50 多家品牌供应商。\n要求：团队合作、沟通、灵活应变，要能搬 30–70 磅（约 14–32 公斤）的箱子。\n时间待遇：2027 年 5 月初到 6 月底，每周 40 到 105 小时不等（比赛那周最忙）；$18/小时，按法律付加班费。",
+   "fact": "2027 年已经是美国公开赛第七次落户圆石滩了——这块海边球场从 1972 年起就是公开赛“老熟人”，相当于高尔夫界的春晚固定会场。",
+   "company": "United States Golf Association (USGA)",
+   "title": "2027 U.S. Open Short-Term Merchandise Intern",
+   "city": "Pebble Beach",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
+  {
+   "companyZh": "Nintendo of America（任天堂美国公司，马里奥和 Switch 的老家）",
+   "titleZh": "电商商品陈列与策略实习生（2027 暑期）",
+   "cityZh": "华盛顿州雷德蒙德（西雅图郊区，全程到岗）",
+   "jd": "工作内容：帮任天堂官网商城做线上陈列、上架内容、让顾客更容易找到商品，设计一套能反复用的测试流程，并研究电商和消费趋势给出建议。\n要求：在读大学生或研究生，2027 年 5 月到 2028 年 6 月之间毕业，GPA 3.0 以上，会用 Excel、PPT；懂 SQL、做过零售算加分；公司不提供工作签证担保。\n时间待遇：10 周，6 月 14 日到 8 月 20 日，每周 40 小时；$30/小时，送本地交通卡和公司健身房。",
+   "fact": "任天堂 1889 年在京都开张时卖的是花札纸牌，比马里奥大叔早出道快一百年——正经的“百年老字号”游戏公司。",
+   "company": "Nintendo of America",
+   "title": "Intern - E-Commerce Merchandising & Strategy（Summer 2027）",
+   "city": "Redmond, WA",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
+  {
+   "companyZh": "David Yurman（大卫·雅曼，美国高端珠宝品牌）",
+   "titleZh": "战略数据分析实习生（2027 暑期）",
+   "cityZh": "纽约（混合办公）",
+   "jd": "工作内容：在市场部跟电商、会员（CRM）、广告投放团队合作，定期做业绩报表、分析顾客在官网上的浏览购买行为，研究奢侈品电商趋势和竞争对手，帮公司找到拉新和留住顾客的办法。\n时间待遇：9 周带薪项目，2027 年 6 月 7 日到 8 月 6 日；约 $25/小时，每周有学习和社交活动。",
+   "fact": "这家珠宝品牌是一位雕塑家和一位画家夫妻俩在纽约创立的，招牌设计是像麻绳一样拧起来的“Cable 绞索纹”——艺术家搞副业，一不小心搞成了顶奢。",
+   "company": "David Yurman",
+   "title": "Strategic Analytics Intern（Summer 2027）",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
+  {
+   "companyZh": "Converse（匡威，耐克旗下帆布鞋品牌）",
+   "titleZh": "全球鞋类商品企划研究生实习（2027 暑期）",
+   "cityZh": "马萨诸塞州波士顿（匡威总部，提供搬迁补助）",
+   "jd": "工作内容：在匡威全球鞋类商品企划组（经典款 Chuck Taylor 帆布鞋）帮忙做每季要出哪些款、怎么搭配的产品规划，分析销量、趋势、竞品和利润，还要管样品、布置展厅、做产品介绍演示。\n要求：在读 MBA 或相关研究生，2027 冬或 2028 春毕业；有商品、营销、零售或数据分析经验，最好做过鞋类；分析能力和演讲能力要强。\n待遇：带薪实习，提供搬迁补助；JD 按全职年薪标注 $63,500–$125,600（按地区不同）。",
+   "fact": "匡威经典款上的“Chuck Taylor”可不是虚构人物，他是 1920 年代真打篮球、还到处帮匡威卖鞋的推销员，1932 年名字被印上鞋标——堪称史上最成功的“带货主播”。",
+   "company": "Converse（Nike, Inc.）",
+   "title": "Converse Merchandising Graduate Internship",
+   "city": "Boston, MA",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
   {
    "companyZh": "NBA（美国职业篮球联赛）",
    "titleZh": "研究生暑期实习生（2027 NBA 暑期实习项目）",
@@ -360,18 +412,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-26 21:50",
+  "asOf": "2026-10-28 21:51",
   "days": [
-   {
-    "date": "2026-10-20",
-    "minutes": 12,
-    "linkedin": 42
-   },
-   {
-    "date": "2026-10-21",
-    "minutes": 114,
-    "linkedin": 1
-   },
    {
     "date": "2026-10-22",
     "minutes": 106,
@@ -396,9 +438,19 @@
     "date": "2026-10-26",
     "minutes": 9,
     "linkedin": 2
+   },
+   {
+    "date": "2026-10-27",
+    "minutes": 1,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-28",
+    "minutes": 49,
+    "linkedin": 1
    }
   ],
-  "weekMinutes": 241,
-  "weekLinkedin": 45
+  "weekMinutes": 165,
+  "weekLinkedin": 3
  }
 }
