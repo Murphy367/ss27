@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-28",
- "generatedAt": "2026-10-29T04:51:53Z",
+ "updated": "2026-11-01",
+ "generatedAt": "2026-11-02T05:50:05Z",
  "total": 30,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 0,
-  "在线测评": 0,
-  "已投递": 27,
+  "在线测评": 1,
+  "已投递": 26,
   "未通过": 3
  },
- "watching": 2,
+ "watching": 5,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
@@ -20,6 +20,19 @@
   "Tapestry"
  ],
  "applied": [
+  {
+   "companyZh": "Fossil Group（化石集团，手表配饰）",
+   "titleZh": "商务与批发实习生（2027 暑期 · Time to Shine 项目）",
+   "cityZh": "德州理查森（公司总部）",
+   "jd": "工作内容：协助批发业务团队跟进经销商客户的订单、发货和库存，做销售报表和业务汇报材料，整理商品价格和产品目录，帮忙准备样品和展厅；配一位导师带，最后向公司高层做结业项目汇报。\n要求：在读本科或硕士，2027 年春到 2028 年春之间毕业；会用 Excel、细心有条理；周一到周四到总部上班，周五远程。\n时间待遇：10 周带薪实习（未写具体金额），有员工折扣。",
+   "fact": "Fossil 早年的手表都装在复古印花的小铁盒里卖，好多人买表其实是为了收集盒子，后来 Fossil 还干脆出了一本叫《Tinspiration》的铁盒图鉴——买椟还珠，美国版。",
+   "company": "Fossil Group",
+   "title": "Commercial Intern（Wholesale · Summer 2027 · Time to Shine）",
+   "city": "Richardson, TX",
+   "progress": "在线测评",
+   "appliedAt": "2026-10-02",
+   "progressAt": "2026-10-29"
+  },
   {
    "companyZh": "USGA（美国高尔夫球协会，非营利组织，主办美国公开赛）",
    "titleZh": "2027 美国高尔夫公开赛 赛事商品短期实习生",
@@ -149,19 +162,6 @@
    "progress": "已投递",
    "appliedAt": "2026-10-03",
    "progressAt": "2026-10-03"
-  },
-  {
-   "companyZh": "Fossil Group（化石集团，手表配饰）",
-   "titleZh": "商务与批发实习生（2027 暑期 · Time to Shine 项目）",
-   "cityZh": "德州理查森（公司总部）",
-   "jd": "工作内容：协助批发业务团队跟进经销商客户的订单、发货和库存，做销售报表和业务汇报材料，整理商品价格和产品目录，帮忙准备样品和展厅；配一位导师带，最后向公司高层做结业项目汇报。\n要求：在读本科或硕士，2027 年春到 2028 年春之间毕业；会用 Excel、细心有条理；周一到周四到总部上班，周五远程。\n时间待遇：10 周带薪实习（未写具体金额），有员工折扣。",
-   "fact": "Fossil 早年的手表都装在复古印花的小铁盒里卖，好多人买表其实是为了收集盒子，后来 Fossil 还干脆出了一本叫《Tinspiration》的铁盒图鉴——买椟还珠，美国版。",
-   "company": "Fossil Group",
-   "title": "Commercial Intern（Wholesale · Summer 2027 · Time to Shine）",
-   "city": "Richardson, TX",
-   "progress": "已投递",
-   "appliedAt": "2026-10-02",
-   "progressAt": "2026-10-02"
   },
   {
    "companyZh": "Bloomingdale's（布鲁明戴尔百货，纽约高端百货，梅西百货集团旗下）",
@@ -412,28 +412,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-10-28 21:51",
+  "asOf": "2026-11-01 21:50",
   "days": [
-   {
-    "date": "2026-10-22",
-    "minutes": 106,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-23",
-    "minutes": 0,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-24",
-    "minutes": 0,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-25",
-    "minutes": 0,
-    "linkedin": 0
-   },
    {
     "date": "2026-10-26",
     "minutes": 9,
@@ -448,9 +428,29 @@
     "date": "2026-10-28",
     "minutes": 49,
     "linkedin": 1
+   },
+   {
+    "date": "2026-10-29",
+    "minutes": 59,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-30",
+    "minutes": 8,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-10-31",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-11-01",
+    "minutes": 1,
+    "linkedin": 0
    }
   ],
-  "weekMinutes": 165,
+  "weekMinutes": 127,
   "weekLinkedin": 3
  }
 }
