@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-04",
- "generatedAt": "2026-11-05T05:49:38Z",
+ "updated": "2026-11-05",
+ "generatedAt": "2026-11-07T21:44:52Z",
  "total": 31,
  "counts": {
   "拿到 Offer": 0,
-  "面试中": 0,
-  "在线测评": 1,
-  "已投递": 27,
-  "未通过": 3
+  "面试中": 1,
+  "在线测评": 0,
+  "已投递": 26,
+  "未通过": 4
  },
- "watching": 5,
+ "watching": 10,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
@@ -17,7 +17,8 @@
   "Hugo Boss",
   "Ralph Lauren",
   "Skechers",
-  "Tapestry"
+  "Tapestry",
+  "The New York Times"
  ],
  "applied": [
   {
@@ -29,9 +30,9 @@
    "company": "Fossil Group",
    "title": "Commercial Intern（Wholesale · Summer 2027 · Time to Shine）",
    "city": "Richardson, TX",
-   "progress": "在线测评",
+   "progress": "面试中",
    "appliedAt": "2026-10-02",
-   "progressAt": "2026-10-29"
+   "progressAt": "2026-11-05"
   },
   {
    "companyZh": "Veronica Beard（纽约轻奢女装品牌）",
@@ -47,19 +48,6 @@
    "progressAt": "2026-11-03"
   },
   {
-   "companyZh": "Converse（匡威，耐克旗下帆布鞋品牌）",
-   "titleZh": "全球鞋类商品企划研究生实习（2027 暑期）",
-   "cityZh": "马萨诸塞州波士顿（匡威总部，提供搬迁补助）",
-   "jd": "工作内容：在匡威全球鞋类商品企划组（经典款 Chuck Taylor 帆布鞋）帮忙做每季要出哪些款、怎么搭配的产品规划，分析销量、趋势、竞品和利润，还要管样品、布置展厅、做产品介绍演示。\n要求：在读 MBA 或相关研究生，2027 冬或 2028 春毕业；有商品、营销、零售或数据分析经验，最好做过鞋类；分析能力和演讲能力要强。\n待遇：带薪实习，提供搬迁补助；JD 按全职年薪标注 $63,500–$125,600（按地区不同）。",
-   "fact": "匡威经典款上的“Chuck Taylor”可不是虚构人物，他是 1920 年代真打篮球、还到处帮匡威卖鞋的推销员，1932 年名字被印上鞋标——堪称史上最成功的“带货主播”。",
-   "company": "Converse（Nike, Inc.）",
-   "title": "Converse Merchandising Graduate Internship",
-   "city": "Boston, MA",
-   "progress": "已投递",
-   "appliedAt": "2026-10-28",
-   "progressAt": "2026-10-28"
-  },
-  {
    "companyZh": "USGA（美国高尔夫球协会，非营利组织，主办美国公开赛）",
    "titleZh": "2027 美国高尔夫公开赛 赛事商品短期实习生",
    "cityZh": "加州圆石滩（赛事现场；非本地可协助住宿和交通）",
@@ -68,19 +56,6 @@
    "company": "United States Golf Association (USGA)",
    "title": "2027 U.S. Open Short-Term Merchandise Intern",
    "city": "Pebble Beach",
-   "progress": "已投递",
-   "appliedAt": "2026-10-28",
-   "progressAt": "2026-10-28"
-  },
-  {
-   "companyZh": "David Yurman（大卫·雅曼，美国高端珠宝品牌）",
-   "titleZh": "战略数据分析实习生（2027 暑期）",
-   "cityZh": "纽约（混合办公）",
-   "jd": "工作内容：在市场部跟电商、会员（CRM）、广告投放团队合作，定期做业绩报表、分析顾客在官网上的浏览购买行为，研究奢侈品电商趋势和竞争对手，帮公司找到拉新和留住顾客的办法。\n时间待遇：9 周带薪项目，2027 年 6 月 7 日到 8 月 6 日；约 $25/小时，每周有学习和社交活动。",
-   "fact": "这家珠宝品牌是一位雕塑家和一位画家夫妻俩在纽约创立的，招牌设计是像麻绳一样拧起来的“Cable 绞索纹”——艺术家搞副业，一不小心搞成了顶奢。",
-   "company": "David Yurman",
-   "title": "Strategic Analytics Intern（Summer 2027）",
-   "city": "New York",
    "progress": "已投递",
    "appliedAt": "2026-10-28",
    "progressAt": "2026-10-28"
@@ -99,6 +74,32 @@
    "progressAt": "2026-10-28"
   },
   {
+   "companyZh": "David Yurman（大卫·雅曼，美国高端珠宝品牌）",
+   "titleZh": "战略数据分析实习生（2027 暑期）",
+   "cityZh": "纽约（混合办公）",
+   "jd": "工作内容：在市场部跟电商、会员（CRM）、广告投放团队合作，定期做业绩报表、分析顾客在官网上的浏览购买行为，研究奢侈品电商趋势和竞争对手，帮公司找到拉新和留住顾客的办法。\n时间待遇：9 周带薪项目，2027 年 6 月 7 日到 8 月 6 日；约 $25/小时，每周有学习和社交活动。",
+   "fact": "这家珠宝品牌是一位雕塑家和一位画家夫妻俩在纽约创立的，招牌设计是像麻绳一样拧起来的“Cable 绞索纹”——艺术家搞副业，一不小心搞成了顶奢。",
+   "company": "David Yurman",
+   "title": "Strategic Analytics Intern（Summer 2027）",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
+  {
+   "companyZh": "Converse（匡威，耐克旗下帆布鞋品牌）",
+   "titleZh": "全球鞋类商品企划研究生实习（2027 暑期）",
+   "cityZh": "马萨诸塞州波士顿（匡威总部，提供搬迁补助）",
+   "jd": "工作内容：在匡威全球鞋类商品企划组（经典款 Chuck Taylor 帆布鞋）帮忙做每季要出哪些款、怎么搭配的产品规划，分析销量、趋势、竞品和利润，还要管样品、布置展厅、做产品介绍演示。\n要求：在读 MBA 或相关研究生，2027 冬或 2028 春毕业；有商品、营销、零售或数据分析经验，最好做过鞋类；分析能力和演讲能力要强。\n待遇：带薪实习，提供搬迁补助；JD 按全职年薪标注 $63,500–$125,600（按地区不同）。",
+   "fact": "匡威经典款上的“Chuck Taylor”可不是虚构人物，他是 1920 年代真打篮球、还到处帮匡威卖鞋的推销员，1932 年名字被印上鞋标——堪称史上最成功的“带货主播”。",
+   "company": "Converse（Nike, Inc.）",
+   "title": "Converse Merchandising Graduate Internship",
+   "city": "Boston, MA",
+   "progress": "已投递",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-10-28"
+  },
+  {
    "companyZh": "NBA（美国职业篮球联赛）",
    "titleZh": "研究生暑期实习生（2027 NBA 暑期实习项目）",
    "cityZh": "纽约州纽约市（每周可远程 1 天）",
@@ -110,32 +111,6 @@
    "progress": "已投递",
    "appliedAt": "2026-10-21",
    "progressAt": "2026-10-21"
-  },
-  {
-   "companyZh": "Express / Bonobos（美国平价服饰连锁 Express 旗下的男装品牌 Bonobos）",
-   "titleZh": "商品企划实习生（Bonobos 品牌，2027 暑期）",
-   "cityZh": "纽约州纽约市（纽约办公室，每周到岗 4 天）",
-   "jd": "工作内容：协助男装新品上市，整理款式信息、管理样品，做竞品和流行趋势调研，参与网店商品展示和商品报表。\n要求：能完整参加 10 周项目，GPA 最好 3.2 以上，须已有美国全职工作许可（公司不办工作签证），住宿需自理。\n时间待遇：2027 年 6 月 2 日至 8 月 5 日，全职每周 40 小时，带薪，标价 23–30 美元。",
-   "fact": "Bonobos 2007 年靠卖“更合身的男士卡其裤”起家，2017 年被沃尔玛收购，2023 年又被打包转手给 Express——一条裤子的“职场跳槽史”比实习生还精彩。",
-   "company": "EXPRESS（PHOENIX Retail，Bonobos 品牌）",
-   "title": "Merchandising Summer Internship（Bonobos，Summer 2027）",
-   "city": "New York",
-   "progress": "已投递",
-   "appliedAt": "2026-10-19",
-   "progressAt": "2026-10-19"
-  },
-  {
-   "companyZh": "FOX Sports（福克斯体育，美国大型体育电视台）",
-   "titleZh": "福克斯体育暑期实习项目（2027 暑期，洛杉矶）",
-   "cityZh": "加州洛杉矶（线下）",
-   "jd": "工作内容：根据求职信和兴趣分配到具体部门，如市场营销、媒体关系、传播、大学生策略与消费者洞察、数据分析、节目制作等，参与真实项目，还有大师课和交流活动。\n要求：在读本科或研究生（大二及以上），能全程在洛杉矶现场上班，了解体育媒体行业，沟通能力强，熟练使用 Office。\n时间待遇：分两期，6 月 7 日–7 月 30 日或 6 月 21 日–8 月 13 日，每周 32–40 小时；Handshake 标注时薪约 20 美元。",
-   "fact": "FOX 体育诞生于 1994 年，起因是 1993 年 FOX 砸重金从 CBS 手里抢走了 NFL 橄榄球转播权——一出手就是「截胡」老牌电视台的名场面。",
-   "company": "FOX Sports",
-   "title": "Summer 2027 FOX Sports Internship Program - Los Angeles",
-   "city": "Los Angeles",
-   "progress": "已投递",
-   "appliedAt": "2026-10-07",
-   "progressAt": "2026-10-07"
   },
   {
    "companyZh": "Mary Kay（玫琳凯，美国美妆护肤品牌）",
@@ -159,6 +134,19 @@
    "company": "PacSun",
    "title": "2027 Summer Internships（Merchandising / Inventory Management / Marketing & Brand Creative / Digital Marketing & eCommerce / Product Development 等）",
    "city": "Anaheim",
+   "progress": "已投递",
+   "appliedAt": "2026-10-07",
+   "progressAt": "2026-10-07"
+  },
+  {
+   "companyZh": "FOX Sports（福克斯体育，美国大型体育电视台）",
+   "titleZh": "福克斯体育暑期实习项目（2027 暑期，洛杉矶）",
+   "cityZh": "加州洛杉矶（线下）",
+   "jd": "工作内容：根据求职信和兴趣分配到具体部门，如市场营销、媒体关系、传播、大学生策略与消费者洞察、数据分析、节目制作等，参与真实项目，还有大师课和交流活动。\n要求：在读本科或研究生（大二及以上），能全程在洛杉矶现场上班，了解体育媒体行业，沟通能力强，熟练使用 Office。\n时间待遇：分两期，6 月 7 日–7 月 30 日或 6 月 21 日–8 月 13 日，每周 32–40 小时；Handshake 标注时薪约 20 美元。",
+   "fact": "FOX 体育诞生于 1994 年，起因是 1993 年 FOX 砸重金从 CBS 手里抢走了 NFL 橄榄球转播权——一出手就是「截胡」老牌电视台的名场面。",
+   "company": "FOX Sports",
+   "title": "Summer 2027 FOX Sports Internship Program - Los Angeles",
+   "city": "Los Angeles",
    "progress": "已投递",
    "appliedAt": "2026-10-07",
    "progressAt": "2026-10-07"
@@ -190,6 +178,19 @@
    "progressAt": "2026-10-02"
   },
   {
+   "companyZh": "Victoria's Secret（维多利亚的秘密）",
+   "titleZh": "商品企划实习生（2027 暑期）",
+   "cityZh": "纽约（美妆组）或俄亥俄州哥伦布（其他品类），每周到岗 3 天",
+   "jd": "工作内容：帮买手团队准备每周的业务会议，管理样品，在系统里录入商品数据，去门店做调研，看看竞争对手在卖什么。\n要求：在读学位即可，暑期全职。\n待遇：时薪 23 美元起。",
+   "fact": "维密是全美最大的内衣零售商之一，旗下还有专攻年轻人的 PINK。一家公司投了三个岗位，女儿这是要把维密「包圆」。",
+   "company": "Victoria's Secret & Co.",
+   "title": "Summer 2027 Merchandising Internship",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-10-01",
+   "progressAt": "2026-10-01"
+  },
+  {
    "companyZh": "Penguin Random House（企鹅兰登书屋，全球最大的大众图书出版社）",
    "titleZh": "成人图书营销实习生（2027 暑期，远程）",
    "cityZh": "纽约（远程，需在美国、按美东时间上班）",
@@ -216,32 +217,6 @@
    "progressAt": "2026-10-01"
   },
   {
-   "companyZh": "Victoria's Secret（维多利亚的秘密）",
-   "titleZh": "商品企划实习生（2027 暑期）",
-   "cityZh": "纽约（美妆组）或俄亥俄州哥伦布（其他品类），每周到岗 3 天",
-   "jd": "工作内容：帮买手团队准备每周的业务会议，管理样品，在系统里录入商品数据，去门店做调研，看看竞争对手在卖什么。\n要求：在读学位即可，暑期全职。\n待遇：时薪 23 美元起。",
-   "fact": "维密是全美最大的内衣零售商之一，旗下还有专攻年轻人的 PINK。一家公司投了三个岗位，女儿这是要把维密「包圆」。",
-   "company": "Victoria's Secret & Co.",
-   "title": "Summer 2027 Merchandising Internship",
-   "city": "New York",
-   "progress": "已投递",
-   "appliedAt": "2026-10-01",
-   "progressAt": "2026-10-01"
-  },
-  {
-   "companyZh": "Under Armour（安德玛）",
-   "titleZh": "供应链、商品计划与配货实习生（2027 暑期 Rookie 项目）",
-   "cityZh": "马里兰州巴尔的摩（公司总部，提供搬迁补助）",
-   "jd": "工作内容：在 Planning 方向平衡消费者需求、库存和业务目标；分析趋势和商品表现，参与选品和库存计划；暑期负责一个业务项目，并有机会和高管交流。\n要求：在读本科或研究生，2027 年 12 月到 2028 年 8 月之间毕业。\n时间：10 月起开始面试。",
-   "fact": "创始人 Kevin Plank 以前是马里兰大学橄榄球队员，嫌棉 T 恤吸了汗太沉，1996 年在奶奶家地下室做出第一件速干衣。地下室创业，美国传统艺能。",
-   "company": "Under Armour",
-   "title": "2027 Summer Internship, Supply Chain, Planning and Allocation（Rookie Program）",
-   "city": "Baltimore, MD",
-   "progress": "已投递",
-   "appliedAt": "2026-09-30",
-   "progressAt": "2026-09-30"
-  },
-  {
    "companyZh": "Williams-Sonoma 集团（West Elm 家居品牌）",
    "titleZh": "商品企划实习生（2027，布鲁克林）",
    "cityZh": "纽约布鲁克林（每周到岗 4 天）",
@@ -250,32 +225,6 @@
    "company": "Williams-Sonoma, Inc. (West Elm)",
    "title": "2027 Merchandising Internship - Brooklyn",
    "city": "Brooklyn",
-   "progress": "已投递",
-   "appliedAt": "2026-09-30",
-   "progressAt": "2026-09-30"
-  },
-  {
-   "companyZh": "Henkel 汉高（DevaCurl 卷发护理品牌）",
-   "titleZh": "品牌营销实习生（DevaCurl，2027 春夏）",
-   "cityZh": "加州卡尔弗城（洛杉矶，混合办公）",
-   "jd": "工作内容：和研发、设计、销售和发型师一起开发卷发护理新品；用市场数据库做调研，找新品机会；把调研结果变成产品概念（配方、香味、包装）；准备上市需要的材料，管理竞品采购和样品寄送。\n要求：JD 写的是 2028 或 2029 年毕业的本科生，市场营销相关专业。\n时间待遇：1 月 11 日到 8 月 13 日，时薪约 27 美元。",
-   "fact": "DevaCurl 起源于纽约 SoHo 一家专做卷发的发廊，2021 年被德国汉高收购。汉高就是做宝莹洗衣液和施华蔻的那家，从洗衣服到洗头发一条龙全包。",
-   "company": "Henkel（DevaCurl）",
-   "title": "Brand Marketing Intern - DevaCurl - Spring/Summer 2027",
-   "city": "Culver City",
-   "progress": "已投递",
-   "appliedAt": "2026-09-30",
-   "progressAt": "2026-09-30"
-  },
-  {
-   "companyZh": "Victoria's Secret（维多利亚的秘密）",
-   "titleZh": "市场营销实习生（2027 暑期）",
-   "cityZh": "纽约",
-   "jd": "工作内容：参与品牌策略和内容创作，帮忙策划网红和明星合作、社交媒体内容；处理公关的日常需求；做竞品调研；整理营销活动的数据复盘；管理样品订单。\n要求：在读相关学位，暑期全职。\n待遇：时薪 23 美元起，混合办公。",
-   "fact": "维密大秀 1995 年首播，2019 年停办，2024 年又复出，堪称时尚圈「退休再就业」的典范。",
-   "company": "Victoria's Secret & Co.",
-   "title": "Summer 2027 Marketing Internship",
-   "city": "New York",
    "progress": "已投递",
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
@@ -294,6 +243,19 @@
    "progressAt": "2026-09-30"
   },
   {
+   "companyZh": "Victoria's Secret（维多利亚的秘密）",
+   "titleZh": "市场营销实习生（2027 暑期）",
+   "cityZh": "纽约",
+   "jd": "工作内容：参与品牌策略和内容创作，帮忙策划网红和明星合作、社交媒体内容；处理公关的日常需求；做竞品调研；整理营销活动的数据复盘；管理样品订单。\n要求：在读相关学位，暑期全职。\n待遇：时薪 23 美元起，混合办公。",
+   "fact": "维密大秀 1995 年首播，2019 年停办，2024 年又复出，堪称时尚圈「退休再就业」的典范。",
+   "company": "Victoria's Secret & Co.",
+   "title": "Summer 2027 Marketing Internship",
+   "city": "New York",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
    "companyZh": "Fossil Group（化石集团，手表配饰）",
    "titleZh": "商品计划与企划实习生（2027 暑期 · Time to Shine 项目）",
    "cityZh": "德州理查森（公司总部）",
@@ -302,6 +264,32 @@
    "company": "Fossil Group",
    "title": "Planning & Merchandising Intern（Summer 2027 · Time to Shine）",
    "city": "Richardson, TX",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "companyZh": "Victoria's Secret（维多利亚的秘密）",
+   "titleZh": "商品计划实习生（2027 暑期）",
+   "cityZh": "俄亥俄州雷诺兹堡（维密总部，每周到岗 3 天）",
+   "jd": "工作内容：每周分析商品卖得好不好、和计划差多少，提出调整库存的建议；学习零售数学和计划指标；用 Excel 做报表，在团队会议上汇报。\n要求：在读学位即可。\n待遇：时薪 23 美元起。",
+   "fact": "维密 1977 年创立于旧金山。据说创始人给老婆买内衣时尴尬到想原地消失，干脆自己开了一家「不尴尬」的店。",
+   "company": "Victoria's Secret & Co.",
+   "title": "Summer 2027 Merchandise Planning Internship",
+   "city": "Reynoldsburg, OH",
+   "progress": "已投递",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
+  },
+  {
+   "companyZh": "Under Armour（安德玛）",
+   "titleZh": "供应链、商品计划与配货实习生（2027 暑期 Rookie 项目）",
+   "cityZh": "马里兰州巴尔的摩（公司总部，提供搬迁补助）",
+   "jd": "工作内容：在 Planning 方向平衡消费者需求、库存和业务目标；分析趋势和商品表现，参与选品和库存计划；暑期负责一个业务项目，并有机会和高管交流。\n要求：在读本科或研究生，2027 年 12 月到 2028 年 8 月之间毕业。\n时间：10 月起开始面试。",
+   "fact": "创始人 Kevin Plank 以前是马里兰大学橄榄球队员，嫌棉 T 恤吸了汗太沉，1996 年在奶奶家地下室做出第一件速干衣。地下室创业，美国传统艺能。",
+   "company": "Under Armour",
+   "title": "2027 Summer Internship, Supply Chain, Planning and Allocation（Rookie Program）",
+   "city": "Baltimore, MD",
    "progress": "已投递",
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
@@ -320,14 +308,14 @@
    "progressAt": "2026-09-30"
   },
   {
-   "companyZh": "Victoria's Secret（维多利亚的秘密）",
-   "titleZh": "商品计划实习生（2027 暑期）",
-   "cityZh": "俄亥俄州雷诺兹堡（维密总部，每周到岗 3 天）",
-   "jd": "工作内容：每周分析商品卖得好不好、和计划差多少，提出调整库存的建议；学习零售数学和计划指标；用 Excel 做报表，在团队会议上汇报。\n要求：在读学位即可。\n待遇：时薪 23 美元起。",
-   "fact": "维密 1977 年创立于旧金山。据说创始人给老婆买内衣时尴尬到想原地消失，干脆自己开了一家「不尴尬」的店。",
-   "company": "Victoria's Secret & Co.",
-   "title": "Summer 2027 Merchandise Planning Internship",
-   "city": "Reynoldsburg, OH",
+   "companyZh": "Henkel 汉高（DevaCurl 卷发护理品牌）",
+   "titleZh": "品牌营销实习生（DevaCurl，2027 春夏）",
+   "cityZh": "加州卡尔弗城（洛杉矶，混合办公）",
+   "jd": "工作内容：和研发、设计、销售和发型师一起开发卷发护理新品；用市场数据库做调研，找新品机会；把调研结果变成产品概念（配方、香味、包装）；准备上市需要的材料，管理竞品采购和样品寄送。\n要求：JD 写的是 2028 或 2029 年毕业的本科生，市场营销相关专业。\n时间待遇：1 月 11 日到 8 月 13 日，时薪约 27 美元。",
+   "fact": "DevaCurl 起源于纽约 SoHo 一家专做卷发的发廊，2021 年被德国汉高收购。汉高就是做宝莹洗衣液和施华蔻的那家，从洗衣服到洗头发一条龙全包。",
+   "company": "Henkel（DevaCurl）",
+   "title": "Brand Marketing Intern - DevaCurl - Spring/Summer 2027",
+   "city": "Culver City",
    "progress": "已投递",
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
@@ -359,6 +347,19 @@
    "progressAt": "2026-09-23"
   },
   {
+   "companyZh": "Western Digital（西部数据）",
+   "titleZh": "销售与市场营销实习生（2027 暑期）",
+   "cityZh": "加州尔湾（远程）",
+   "jd": "工作内容：做市场和竞品调研，支持开拓新客户，协助筹备全球销售大会等活动，参与数字营销，制作宣传材料，分析活动效果。\n要求：JD 写的是在读本科、2027 年 12 月到 2028 年 6 月毕业。\n时间待遇：12 周，时薪 23 到 33 美元。",
+   "fact": "很多电脑和数据中心的硬盘都是西部数据做的。2025 年它把闪存业务拆出去单独上市，就是 U 盘上常见的那个「闪迪」SanDisk。",
+   "company": "Western Digital",
+   "title": "Summer 2027 Intern - Sales & Marketing",
+   "city": "Irvine",
+   "progress": "已投递",
+   "appliedAt": "2026-09-23",
+   "progressAt": "2026-09-23"
+  },
+  {
    "companyZh": "The deFIANT（洛杉矶时尚展厅）",
    "titleZh": "展厅 / VIP / 网红营销实习生",
    "cityZh": "加州西好莱坞（每周到岗至少 2 天）",
@@ -372,17 +373,17 @@
    "progressAt": "2026-09-23"
   },
   {
-   "companyZh": "Western Digital（西部数据）",
-   "titleZh": "销售与市场营销实习生（2027 暑期）",
-   "cityZh": "加州尔湾（远程）",
-   "jd": "工作内容：做市场和竞品调研，支持开拓新客户，协助筹备全球销售大会等活动，参与数字营销，制作宣传材料，分析活动效果。\n要求：JD 写的是在读本科、2027 年 12 月到 2028 年 6 月毕业。\n时间待遇：12 周，时薪 23 到 33 美元。",
-   "fact": "很多电脑和数据中心的硬盘都是西部数据做的。2025 年它把闪存业务拆出去单独上市，就是 U 盘上常见的那个「闪迪」SanDisk。",
-   "company": "Western Digital",
-   "title": "Summer 2027 Intern - Sales & Marketing",
-   "city": "Irvine",
-   "progress": "已投递",
-   "appliedAt": "2026-09-23",
-   "progressAt": "2026-09-23"
+   "companyZh": "Express / Bonobos（美国平价服饰连锁 Express 旗下的男装品牌 Bonobos）",
+   "titleZh": "商品企划实习生（Bonobos 品牌，2027 暑期）",
+   "cityZh": "纽约州纽约市（纽约办公室，每周到岗 4 天）",
+   "jd": "工作内容：协助男装新品上市，整理款式信息、管理样品，做竞品和流行趋势调研，参与网店商品展示和商品报表。\n要求：能完整参加 10 周项目，GPA 最好 3.2 以上，须已有美国全职工作许可（公司不办工作签证），住宿需自理。\n时间待遇：2027 年 6 月 2 日至 8 月 5 日，全职每周 40 小时，带薪，标价 23–30 美元。",
+   "fact": "Bonobos 2007 年靠卖“更合身的男士卡其裤”起家，2017 年被沃尔玛收购，2023 年又被打包转手给 Express——一条裤子的“职场跳槽史”比实习生还精彩。",
+   "company": "EXPRESS（PHOENIX Retail，Bonobos 品牌）",
+   "title": "Merchandising Summer Internship（Bonobos，Summer 2027）",
+   "city": "New York",
+   "progress": "未通过",
+   "appliedAt": "2026-10-19",
+   "progressAt": "2026-11-05"
   },
   {
    "companyZh": "Endeavor Global（全球创业者支持网络，非营利组织）",
@@ -398,19 +399,6 @@
    "progressAt": "2026-10-22"
   },
   {
-   "companyZh": "Robinhood（罗宾汉，美国炒股 App）",
-   "titleZh": "增长营销实习生（2027 暑期）",
-   "cityZh": "加州门洛帕克（硅谷，每周到岗至少 3 天）",
-   "jd": "工作内容：管理谷歌广告和 Meta、TikTok 上的付费广告投放；跟踪花费和效果，分析数据提出优化建议；做数据看板；对广告素材和投放做 A/B 测试。\n要求：金融、经济、统计等偏量化的专业，2027 年冬或 2028 年夏毕业，会 SQL 更好。\n待遇：时薪 33 美元。",
-   "fact": "名字来自「劫富济贫」的罗宾汉，靠零佣金炒股出名。2013 年由两位斯坦福同学创立，可见同学关系要处好，说不定哪天就一起上市了。",
-   "company": "Robinhood",
-   "title": "Growth Marketing Intern (Summer 2027)",
-   "city": "Menlo Park",
-   "progress": "未通过",
-   "appliedAt": "2026-09-30",
-   "progressAt": "2026-09-30"
-  },
-  {
    "companyZh": "TikTok（TikTok Shop 电商）",
    "titleZh": "整合营销与促销经理实习生（2027 暑期，硕士/MBA）",
    "cityZh": "洛杉矶",
@@ -422,26 +410,24 @@
    "progress": "未通过",
    "appliedAt": "2026-09-30",
    "progressAt": "2026-09-30"
+  },
+  {
+   "companyZh": "Robinhood（罗宾汉，美国炒股 App）",
+   "titleZh": "增长营销实习生（2027 暑期）",
+   "cityZh": "加州门洛帕克（硅谷，每周到岗至少 3 天）",
+   "jd": "工作内容：管理谷歌广告和 Meta、TikTok 上的付费广告投放；跟踪花费和效果，分析数据提出优化建议；做数据看板；对广告素材和投放做 A/B 测试。\n要求：金融、经济、统计等偏量化的专业，2027 年冬或 2028 年夏毕业，会 SQL 更好。\n待遇：时薪 33 美元。",
+   "fact": "名字来自「劫富济贫」的罗宾汉，靠零佣金炒股出名。2013 年由两位斯坦福同学创立，可见同学关系要处好，说不定哪天就一起上市了。",
+   "company": "Robinhood",
+   "title": "Growth Marketing Intern (Summer 2027)",
+   "city": "Menlo Park",
+   "progress": "未通过",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-09-30"
   }
  ],
  "usage": {
-  "asOf": "2026-11-04 21:49",
+  "asOf": "2026-11-07 13:44",
   "days": [
-   {
-    "date": "2026-10-29",
-    "minutes": 59,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-30",
-    "minutes": 8,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-10-31",
-    "minutes": 0,
-    "linkedin": 0
-   },
    {
     "date": "2026-11-01",
     "minutes": 1,
@@ -461,9 +447,24 @@
     "date": "2026-11-04",
     "minutes": 0,
     "linkedin": 0
+   },
+   {
+    "date": "2026-11-05",
+    "minutes": 19,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-11-06",
+    "minutes": 0,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-11-07",
+    "minutes": 0,
+    "linkedin": 0
    }
   ],
-  "weekMinutes": 77,
+  "weekMinutes": 29,
   "weekLinkedin": 0
  }
 }
