@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05",
- "generatedAt": "2026-11-07T21:44:52Z",
+ "updated": "2026-11-07",
+ "generatedAt": "2026-11-08T08:44:45Z",
  "total": 31,
  "counts": {
   "拿到 Offer": 0,
@@ -18,7 +18,8 @@
   "Ralph Lauren",
   "Skechers",
   "Tapestry",
-  "The New York Times"
+  "The New York Times",
+  "Tinder"
  ],
  "applied": [
   {
@@ -426,13 +427,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-11-07 13:44",
+  "asOf": "2026-11-08 00:44",
   "days": [
-   {
-    "date": "2026-11-01",
-    "minutes": 1,
-    "linkedin": 0
-   },
    {
     "date": "2026-11-02",
     "minutes": 7,
@@ -462,9 +458,14 @@
     "date": "2026-11-07",
     "minutes": 0,
     "linkedin": 0
+   },
+   {
+    "date": "2026-11-08",
+    "minutes": 0,
+    "linkedin": 0
    }
   ],
-  "weekMinutes": 29,
+  "weekMinutes": 28,
   "weekLinkedin": 0
  }
 }
