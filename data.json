@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-07",
- "generatedAt": "2026-11-08T08:44:45Z",
+ "updated": "2026-11-10",
+ "generatedAt": "2026-11-11T21:11:43Z",
  "total": 31,
  "counts": {
   "拿到 Offer": 0,
   "面试中": 1,
   "在线测评": 0,
-  "已投递": 26,
-  "未通过": 4
+  "已投递": 24,
+  "未通过": 6
  },
- "watching": 10,
+ "watching": 11,
  "upcoming": [
   "Authentic Brands Group",
   "Cosm",
@@ -18,8 +18,7 @@
   "Ralph Lauren",
   "Skechers",
   "Tapestry",
-  "The New York Times",
-  "Tinder"
+  "The New York Times"
  ],
  "applied": [
   {
@@ -57,19 +56,6 @@
    "company": "United States Golf Association (USGA)",
    "title": "2027 U.S. Open Short-Term Merchandise Intern",
    "city": "Pebble Beach",
-   "progress": "已投递",
-   "appliedAt": "2026-10-28",
-   "progressAt": "2026-10-28"
-  },
-  {
-   "companyZh": "Nintendo of America（任天堂美国公司，马里奥和 Switch 的老家）",
-   "titleZh": "电商商品陈列与策略实习生（2027 暑期）",
-   "cityZh": "华盛顿州雷德蒙德（西雅图郊区，全程到岗）",
-   "jd": "工作内容：帮任天堂官网商城做线上陈列、上架内容、让顾客更容易找到商品，设计一套能反复用的测试流程，并研究电商和消费趋势给出建议。\n要求：在读大学生或研究生，2027 年 5 月到 2028 年 6 月之间毕业，GPA 3.0 以上，会用 Excel、PPT；懂 SQL、做过零售算加分；公司不提供工作签证担保。\n时间待遇：10 周，6 月 14 日到 8 月 20 日，每周 40 小时；$30/小时，送本地交通卡和公司健身房。",
-   "fact": "任天堂 1889 年在京都开张时卖的是花札纸牌，比马里奥大叔早出道快一百年——正经的“百年老字号”游戏公司。",
-   "company": "Nintendo of America",
-   "title": "Intern - E-Commerce Merchandising & Strategy（Summer 2027）",
-   "city": "Redmond, WA",
    "progress": "已投递",
    "appliedAt": "2026-10-28",
    "progressAt": "2026-10-28"
@@ -309,19 +295,6 @@
    "progressAt": "2026-09-30"
   },
   {
-   "companyZh": "Henkel 汉高（DevaCurl 卷发护理品牌）",
-   "titleZh": "品牌营销实习生（DevaCurl，2027 春夏）",
-   "cityZh": "加州卡尔弗城（洛杉矶，混合办公）",
-   "jd": "工作内容：和研发、设计、销售和发型师一起开发卷发护理新品；用市场数据库做调研，找新品机会；把调研结果变成产品概念（配方、香味、包装）；准备上市需要的材料，管理竞品采购和样品寄送。\n要求：JD 写的是 2028 或 2029 年毕业的本科生，市场营销相关专业。\n时间待遇：1 月 11 日到 8 月 13 日，时薪约 27 美元。",
-   "fact": "DevaCurl 起源于纽约 SoHo 一家专做卷发的发廊，2021 年被德国汉高收购。汉高就是做宝莹洗衣液和施华蔻的那家，从洗衣服到洗头发一条龙全包。",
-   "company": "Henkel（DevaCurl）",
-   "title": "Brand Marketing Intern - DevaCurl - Spring/Summer 2027",
-   "city": "Culver City",
-   "progress": "已投递",
-   "appliedAt": "2026-09-30",
-   "progressAt": "2026-09-30"
-  },
-  {
    "companyZh": "Free People（URBN 集团旗下女装品牌）",
    "titleZh": "商品计划与配货实习生（2027 暑期）",
    "cityZh": "宾夕法尼亚州费城（集团总部）",
@@ -372,6 +345,32 @@
    "progress": "已投递",
    "appliedAt": "2026-09-23",
    "progressAt": "2026-09-23"
+  },
+  {
+   "companyZh": "Nintendo of America（任天堂美国公司，马里奥和 Switch 的老家）",
+   "titleZh": "电商商品陈列与策略实习生（2027 暑期）",
+   "cityZh": "华盛顿州雷德蒙德（西雅图郊区，全程到岗）",
+   "jd": "工作内容：帮任天堂官网商城做线上陈列、上架内容、让顾客更容易找到商品，设计一套能反复用的测试流程，并研究电商和消费趋势给出建议。\n要求：在读大学生或研究生，2027 年 5 月到 2028 年 6 月之间毕业，GPA 3.0 以上，会用 Excel、PPT；懂 SQL、做过零售算加分；公司不提供工作签证担保。\n时间待遇：10 周，6 月 14 日到 8 月 20 日，每周 40 小时；$30/小时，送本地交通卡和公司健身房。",
+   "fact": "任天堂 1889 年在京都开张时卖的是花札纸牌，比马里奥大叔早出道快一百年——正经的“百年老字号”游戏公司。",
+   "company": "Nintendo of America",
+   "title": "Intern - E-Commerce Merchandising & Strategy（Summer 2027）",
+   "city": "Redmond, WA",
+   "progress": "未通过",
+   "appliedAt": "2026-10-28",
+   "progressAt": "2026-11-09"
+  },
+  {
+   "companyZh": "Henkel 汉高（DevaCurl 卷发护理品牌）",
+   "titleZh": "品牌营销实习生（DevaCurl，2027 春夏）",
+   "cityZh": "加州卡尔弗城（洛杉矶，混合办公）",
+   "jd": "工作内容：和研发、设计、销售和发型师一起开发卷发护理新品；用市场数据库做调研，找新品机会；把调研结果变成产品概念（配方、香味、包装）；准备上市需要的材料，管理竞品采购和样品寄送。\n要求：JD 写的是 2028 或 2029 年毕业的本科生，市场营销相关专业。\n时间待遇：1 月 11 日到 8 月 13 日，时薪约 27 美元。",
+   "fact": "DevaCurl 起源于纽约 SoHo 一家专做卷发的发廊，2021 年被德国汉高收购。汉高就是做宝莹洗衣液和施华蔻的那家，从洗衣服到洗头发一条龙全包。",
+   "company": "Henkel（DevaCurl）",
+   "title": "Brand Marketing Intern - DevaCurl - Spring/Summer 2027",
+   "city": "Culver City",
+   "progress": "未通过",
+   "appliedAt": "2026-09-30",
+   "progressAt": "2026-11-09"
   },
   {
    "companyZh": "Express / Bonobos（美国平价服饰连锁 Express 旗下的男装品牌 Bonobos）",
@@ -427,23 +426,8 @@
   }
  ],
  "usage": {
-  "asOf": "2026-11-08 00:44",
+  "asOf": "2026-11-11 13:11",
   "days": [
-   {
-    "date": "2026-11-02",
-    "minutes": 7,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-11-03",
-    "minutes": 2,
-    "linkedin": 0
-   },
-   {
-    "date": "2026-11-04",
-    "minutes": 0,
-    "linkedin": 0
-   },
    {
     "date": "2026-11-05",
     "minutes": 19,
@@ -463,9 +447,24 @@
     "date": "2026-11-08",
     "minutes": 0,
     "linkedin": 0
+   },
+   {
+    "date": "2026-11-09",
+    "minutes": 52,
+    "linkedin": 5
+   },
+   {
+    "date": "2026-11-10",
+    "minutes": 4,
+    "linkedin": 0
+   },
+   {
+    "date": "2026-11-11",
+    "minutes": 0,
+    "linkedin": 0
    }
   ],
-  "weekMinutes": 28,
-  "weekLinkedin": 0
+  "weekMinutes": 75,
+  "weekLinkedin": 5
  }
 }
